@@ -1,10 +1,10 @@
-type Card = {
+type CardType = {
     code: string,
     name: string,
     attribute: string,
     power: string,
     counter: string,
-    color: string,
+    color: Array<string>,
     types: Array<string>,
     effects: string,
     rarity: string,
@@ -13,4 +13,4 @@ type Card = {
     life: string
 }
 
-export type { Card }
+export type { CardType }

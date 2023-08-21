@@ -5,7 +5,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -22,7 +24,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -39,7 +43,10 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Red/Green",
+    "color": [
+      "Red",
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Heart Pirates"
@@ -56,7 +63,10 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Red/Green",
+    "color": [
+      "Red",
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Heart Pirates"
@@ -73,7 +83,10 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Red/Green",
+    "color": [
+      "Red",
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -90,7 +103,10 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Red/Green",
+    "color": [
+      "Red",
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -107,7 +123,9 @@
     "attribute": "Ranged",
     "power": "3000",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -123,7 +141,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM"
     ],
@@ -139,7 +159,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM"
     ],
@@ -155,7 +177,9 @@
     "attribute": "Special",
     "power": "false",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -171,7 +195,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Caribou Pirates"
@@ -188,7 +214,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Beautiful Pirates"
@@ -205,7 +233,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Beautiful Pirates"
@@ -222,7 +252,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Minks"
     ],
@@ -238,7 +270,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Animal",
       "Land of Wano"
@@ -255,7 +289,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM"
     ],
@@ -271,7 +307,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Happosui Army"
     ],
@@ -287,7 +325,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -303,7 +343,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -319,7 +361,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Fish-Man",
       "Straw Hat Crew"
@@ -336,7 +380,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Fish-Man",
       "Straw Hat Crew"
@@ -353,7 +399,9 @@
     "attribute": "Wisdom",
     "power": "4000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Animal",
       "Straw Hat Crew"
@@ -370,7 +418,9 @@
     "attribute": "Special",
     "power": "2000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -386,7 +436,9 @@
     "attribute": "Special",
     "power": "2000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -402,7 +454,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -418,7 +472,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -434,7 +490,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Giant",
       "New Giant Pirates"
@@ -451,7 +509,9 @@
     "attribute": "Special",
     "power": "2000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Barto Club"
@@ -468,7 +528,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -484,7 +546,9 @@
     "attribute": "Ranged",
     "power": "4000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -500,7 +564,9 @@
     "attribute": "Ranged",
     "power": "4000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -516,7 +582,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -532,7 +600,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Former Whitebeard Pirates"
     ],
@@ -548,7 +618,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -565,7 +637,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -582,7 +656,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -599,7 +675,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -616,7 +694,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -633,7 +713,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Beautiful Pirates"
@@ -650,7 +732,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -666,7 +750,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -682,7 +768,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -698,7 +786,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -715,7 +805,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -732,7 +824,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "The Akazaya Nine"
@@ -749,7 +843,9 @@
     "attribute": "Ranged",
     "power": "3000",
     "counter": "2000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "Former Whitebeard Pirates"
@@ -766,7 +862,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Minks",
       "Land of Wano",
@@ -784,7 +882,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Minks",
       "Land of Wano",
@@ -802,7 +902,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "The Akazaya Nine"
@@ -819,7 +921,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -835,7 +939,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Fish-Man",
       "Land of Wano",
@@ -853,7 +959,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "The Akazaya Nine"
@@ -870,7 +978,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Kid Pirates"
@@ -887,7 +997,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "The Akazaya Nine"
@@ -904,7 +1016,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "The Akazaya Nine"
@@ -921,7 +1035,9 @@
     "attribute": "Slash",
     "power": "false",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -938,7 +1054,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -955,7 +1073,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -971,7 +1091,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Heart Pirates"
     ],
@@ -987,7 +1109,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Heart Pirates"
     ],
@@ -1003,7 +1127,9 @@
     "attribute": "Slash",
     "power": "7000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "The Akazaya Nine"
@@ -1020,7 +1146,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Heart Pirates"
@@ -1037,7 +1165,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Heart Pirates"
@@ -1054,7 +1184,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Minks",
       "Land of Wano",
@@ -1072,7 +1204,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Minks",
       "Land of Wano",
@@ -1090,7 +1224,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "2000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Minks",
       "Heart Pirates"
@@ -1107,7 +1243,9 @@
     "attribute": "Strike",
     "power": "2000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Heart Pirates"
     ],
@@ -1123,7 +1261,9 @@
     "attribute": "Special",
     "power": "8000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Kid Pirates"
@@ -1140,7 +1280,9 @@
     "attribute": "Special",
     "power": "8000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Kid Pirates"
@@ -1157,7 +1299,9 @@
     "attribute": "Special",
     "power": "8000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Kid Pirates"
@@ -1174,7 +1318,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "The Akazaya Nine"
@@ -1191,7 +1337,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "The Akazaya Nine"
@@ -1208,7 +1356,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Kid Pirates"
     ],
@@ -1224,7 +1374,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Navy",
@@ -1242,7 +1394,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -1259,7 +1413,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Hawkins Pirates"
@@ -1276,7 +1432,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -1293,7 +1451,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Kid Pirates"
@@ -1310,7 +1470,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -1326,7 +1488,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
@@ -1343,7 +1507,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
@@ -1360,7 +1526,10 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Blue/Purple",
+    "color": [
+      "Blue",
+      "Purple"
+    ],
     "types": [
       "The Four Emperors",
       "Animal Kingdom Pirates"
@@ -1377,7 +1546,10 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Blue/Purple",
+    "color": [
+      "Blue",
+      "Purple"
+    ],
     "types": [
       "The Four Emperors",
       "Animal Kingdom Pirates"
@@ -1394,7 +1566,10 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Blue/Purple",
+    "color": [
+      "Blue",
+      "Purple"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Baroque Works"
@@ -1411,7 +1586,10 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Blue/Purple",
+    "color": [
+      "Blue",
+      "Purple"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Baroque Works"
@@ -1428,7 +1606,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Fish-Man",
       "Arlong Pirates"
@@ -1445,7 +1625,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "2000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Buggy Pirates"
     ],
@@ -1461,7 +1643,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "2000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Buggy Pirates"
     ],
@@ -1477,7 +1661,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Navy",
       "Donquixote Pirates",
@@ -1495,7 +1681,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Krieg Pirates"
     ],
@@ -1511,7 +1699,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Baroque Works"
@@ -1528,7 +1718,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Baroque Works"
@@ -1545,7 +1737,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Thriller Bark Pirates"
@@ -1562,7 +1756,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Scientist",
       "Punk Hazard"
@@ -1579,7 +1775,9 @@
     "attribute": "Slash",
     "power": "9000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea"
     ],
@@ -1595,7 +1793,9 @@
     "attribute": "Slash",
     "power": "9000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea"
     ],
@@ -1611,7 +1811,9 @@
     "attribute": "Strike",
     "power": "2000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Fish-Man",
       "Straw Hat Crew"
@@ -1628,7 +1830,9 @@
     "attribute": "Special",
     "power": "1000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Biological Weapon",
       "Punk Hazard"
@@ -1645,7 +1849,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
@@ -1662,7 +1868,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
@@ -1679,7 +1887,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Revolutionary Army"
@@ -1696,7 +1906,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Biological Weapon",
       "Navy"
@@ -1713,7 +1925,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Dressrosa"
     ],
@@ -1729,7 +1943,9 @@
     "attribute": "Special",
     "power": "2000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Thriller Bark Pirates"
     ],
@@ -1745,7 +1961,9 @@
     "attribute": "Special",
     "power": "2000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Thriller Bark Pirates"
     ],
@@ -1761,7 +1979,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
@@ -1778,7 +1998,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
@@ -1795,7 +2017,9 @@
     "attribute": "Strike",
     "power": "1000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Baroque Works"
     ],
@@ -1811,7 +2035,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Baroque Works"
     ],
@@ -1827,7 +2053,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Punk Hazard"
     ],
@@ -1843,7 +2071,9 @@
     "attribute": "Special",
     "power": "3000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Donquixote Pirates",
       "Punk Hazard"
@@ -1860,7 +2090,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Baroque Works"
     ],
@@ -1876,7 +2108,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "2000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Baroque Works"
     ],
@@ -1892,7 +2126,9 @@
     "attribute": "Special",
     "power": "3000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Baroque Works"
     ],
@@ -1908,7 +2144,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
@@ -1925,7 +2163,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Baroque Works"
     ],
@@ -1941,7 +2181,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Baroque Works"
@@ -1958,7 +2200,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Baroque Works"
@@ -1975,7 +2219,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Baroque Works"
     ],
@@ -1991,7 +2237,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2007,7 +2255,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2023,7 +2273,9 @@
     "attribute": "Strike",
     "power": "9000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -2039,7 +2291,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2055,7 +2309,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2071,7 +2327,9 @@
     "attribute": "Strike",
     "power": "12000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "The Four Emperors",
       "Animal Kingdom Pirates"
@@ -2088,7 +2346,9 @@
     "attribute": "Strike",
     "power": "12000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "The Four Emperors",
       "Animal Kingdom Pirates"
@@ -2105,7 +2365,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -2121,7 +2383,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2137,7 +2401,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2153,7 +2419,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2169,7 +2437,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2185,7 +2455,9 @@
     "attribute": "Wisdom",
     "power": "2000",
     "counter": "2000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Land of Wano",
       "Kurozumi Clan"
@@ -2202,7 +2474,9 @@
     "attribute": "Special",
     "power": "3000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Land of Wano",
       "Kurozumi Clan"
@@ -2219,7 +2493,9 @@
     "attribute": "Special",
     "power": "3000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Land of Wano",
       "Kurozumi Clan"
@@ -2236,7 +2512,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "2000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2252,7 +2530,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "2000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2268,7 +2548,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2284,7 +2566,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2300,7 +2584,9 @@
     "attribute": "Ranged",
     "power": "6000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "On-Air Pirates"
@@ -2317,7 +2603,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "SMILE"
@@ -2334,7 +2622,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "SMILE"
@@ -2351,7 +2641,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "Hawkins Pirates"
@@ -2368,7 +2660,9 @@
     "attribute": "Ranged",
     "power": "7000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "SMILE"
@@ -2385,7 +2679,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Supernovas",
       "Kid Pirates",
@@ -2403,7 +2699,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2419,7 +2717,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2435,7 +2735,9 @@
     "attribute": "Special",
     "power": "8000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Land of Wano",
       "Animal Kingdom Pirates"
@@ -2452,7 +2754,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2468,7 +2772,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2484,7 +2790,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "SMILE"
@@ -2501,7 +2809,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "2000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Navy",
       "Drake Pirates",
@@ -2519,7 +2829,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "SMILE"
@@ -2536,7 +2848,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "SMILE"
@@ -2553,7 +2867,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "SMILE"
@@ -2570,7 +2886,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -2586,7 +2904,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "The Four Emperors",
       "Animal Kingdom Pirates"
@@ -2603,7 +2923,9 @@
     "attribute": "Slash",
     "power": "10000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "The Four Emperors",
       "Red-Haired Pirates"
@@ -2620,7 +2942,9 @@
     "attribute": "Slash",
     "power": "10000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "The Four Emperors",
       "Red-Haired Pirates"
@@ -2637,7 +2961,9 @@
     "attribute": "Slash",
     "power": "10000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "The Four Emperors",
       "Red-Haired Pirates"
@@ -2654,7 +2980,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -2670,7 +2998,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -2686,7 +3016,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "The Four Emperors",
       "Whitebeard Pirates"
@@ -2703,7 +3035,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "The Four Emperors",
       "Whitebeard Pirates"
@@ -2720,7 +3054,10 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Red/Black",
+    "color": [
+      "Red",
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -2736,7 +3073,10 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Red/Black",
+    "color": [
+      "Red",
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -2752,7 +3092,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -2768,7 +3110,9 @@
     "attribute": "Special",
     "power": "10000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "The Four Emperors",
       "Whitebeard Pirates"
@@ -2785,7 +3129,9 @@
     "attribute": "Special",
     "power": "10000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "The Four Emperors",
       "Whitebeard Pirates"
@@ -2802,7 +3148,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Mountain Bandits"
     ],
@@ -2818,7 +3166,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -2834,7 +3184,9 @@
     "attribute": "Wisdom",
     "power": "8000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -2850,7 +3202,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -2866,7 +3220,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates Allies"
     ],
@@ -2882,7 +3238,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates Allies"
     ],
@@ -2898,7 +3256,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Mountain Bandits"
     ],
@@ -2914,7 +3274,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -2930,7 +3292,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -2946,7 +3310,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -2962,7 +3328,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -2978,7 +3346,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -2994,7 +3364,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates Allies"
     ],
@@ -3010,7 +3382,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Windmill Village"
     ],
@@ -3026,7 +3400,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Mountain Bandits"
     ],
@@ -3042,7 +3418,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Spade Pirates"
     ],
@@ -3058,7 +3436,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Spade Pirates"
     ],
@@ -3074,7 +3454,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -3090,7 +3472,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -3106,7 +3490,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -3122,7 +3508,9 @@
     "attribute": "Strike",
     "power": "9000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Giant",
       "Whitebeard Pirates Allies"
@@ -3139,7 +3527,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "The Four Emperors",
       "Whitebeard Pirates"
@@ -3156,7 +3546,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -3172,7 +3564,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "The Four Emperors",
       "Whitebeard Pirates"
@@ -3189,7 +3583,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -3205,7 +3601,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "The Akazaya Nine"
@@ -3222,7 +3620,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "The Akazaya Nine"
@@ -3239,7 +3639,10 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Green/Blue",
+    "color": [
+      "Green",
+      "Blue"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -3255,7 +3658,10 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Green/Blue",
+    "color": [
+      "Green",
+      "Blue"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -3271,7 +3677,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Minks",
       "Land of Wano",
@@ -3289,7 +3697,9 @@
     "attribute": "Ranged",
     "power": "5000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Straw Hat Crew"
@@ -3306,7 +3716,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "2000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Minks"
     ],
@@ -3322,7 +3734,9 @@
     "attribute": "Slash",
     "power": "8000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -3339,7 +3753,9 @@
     "attribute": "Slash",
     "power": "8000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -3356,7 +3772,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -3373,7 +3791,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -3390,7 +3810,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Minks"
     ],
@@ -3406,7 +3828,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Fish-Man",
@@ -3424,7 +3848,9 @@
     "attribute": "Wisdom",
     "power": "2000",
     "counter": "2000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Animal",
@@ -3442,7 +3868,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Supernovas",
@@ -3460,7 +3888,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Supernovas",
@@ -3478,7 +3908,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Straw Hat Crew"
@@ -3495,7 +3927,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Straw Hat Crew"
@@ -3512,7 +3946,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Straw Hat Crew"
@@ -3529,7 +3965,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Minks",
       "Land of Wano",
@@ -3547,7 +3985,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Straw Hat Crew"
@@ -3564,7 +4004,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Straw Hat Crew"
@@ -3581,7 +4023,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Supernovas",
@@ -3599,7 +4043,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Supernovas",
@@ -3617,7 +4063,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -3633,7 +4081,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Supernovas",
@@ -3651,7 +4101,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Minks"
     ],
@@ -3667,7 +4119,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Supernovas",
@@ -3685,7 +4139,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Straw Hat Crew"
@@ -3702,7 +4158,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -3719,7 +4177,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -3735,7 +4195,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Revolutionary Army"
@@ -3752,7 +4214,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Revolutionary Army"
@@ -3769,7 +4233,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Revolutionary Army"
@@ -3786,7 +4252,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Revolutionary Army"
@@ -3803,7 +4271,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Revolutionary Army"
@@ -3820,7 +4290,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Buggy Pirates"
     ],
@@ -3836,7 +4308,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Former Baroque Works"
@@ -3853,7 +4327,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Thriller Bark Pirates"
@@ -3870,7 +4346,9 @@
     "attribute": "Slash",
     "power": "8000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea"
     ],
@@ -3886,7 +4364,9 @@
     "attribute": "Special",
     "power": "2000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
@@ -3903,7 +4383,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Revolutionary Army"
@@ -3920,7 +4402,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Buggy Pirates"
@@ -3937,7 +4421,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Buggy Pirates"
@@ -3954,7 +4440,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "The Seven Warlords of the Sea",
@@ -3972,7 +4460,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "The Seven Warlords of the Sea",
@@ -3990,7 +4480,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Buggy Pirates"
     ],
@@ -4006,7 +4498,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Giant",
       "Revolutionary Army"
@@ -4023,7 +4517,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Straw Hat Crew"
@@ -4040,7 +4536,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Straw Hat Crew"
@@ -4057,7 +4555,9 @@
     "attribute": "Slash",
     "power": "1000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Former Baroque Works"
@@ -4074,7 +4574,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "2000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Former Baroque Works"
@@ -4091,7 +4593,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Former Baroque Works"
@@ -4108,7 +4612,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4124,7 +4630,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Fish-Man",
       "Impel Down"
@@ -4141,7 +4649,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Straw Hat Crew"
@@ -4158,7 +4668,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down",
       "Revolutionary Army"
@@ -4175,7 +4687,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4191,7 +4705,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4207,7 +4723,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4223,7 +4741,10 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Purple/Black",
+    "color": [
+      "Purple",
+      "Black"
+    ],
     "types": [
       "FILM",
       "Neo Navy"
@@ -4240,7 +4761,10 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Purple/Black",
+    "color": [
+      "Purple",
+      "Black"
+    ],
     "types": [
       "FILM",
       "Neo Navy"
@@ -4257,7 +4781,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "2000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4273,7 +4799,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "2000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4289,7 +4817,9 @@
     "attribute": "Wisdom",
     "power": "2000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4305,7 +4835,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "2000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "Golden Lion Pirates"
@@ -4322,7 +4854,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4338,7 +4872,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "SMILE"
@@ -4355,7 +4891,9 @@
     "attribute": "Ranged",
     "power": "5000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "SMILE"
@@ -4372,7 +4910,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "The Pirates Fest"
@@ -4389,7 +4929,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "SMILE"
@@ -4406,7 +4948,9 @@
     "attribute": "Wisdom",
     "power": "2000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4422,7 +4966,9 @@
     "attribute": "Strike",
     "power": "8000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "World Pirates"
     ],
@@ -4438,7 +4984,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4454,7 +5002,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal",
       "Impel Down"
@@ -4471,7 +5021,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4487,7 +5039,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4503,7 +5057,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down",
       "Jailer Beast"
@@ -4520,7 +5076,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down",
       "Jailer Beast"
@@ -4537,7 +5095,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down",
       "Jailer Beast"
@@ -4554,7 +5114,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal",
       "Impel Down"
@@ -4571,7 +5133,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4587,7 +5151,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4603,7 +5169,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4619,7 +5187,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down"
     ],
@@ -4635,7 +5205,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4651,7 +5223,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4667,7 +5241,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4683,7 +5259,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4699,7 +5277,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4715,7 +5295,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4731,7 +5313,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4747,7 +5331,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4763,7 +5349,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4779,7 +5367,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4795,7 +5385,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4811,7 +5403,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4827,7 +5421,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4843,7 +5439,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4859,7 +5457,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "2000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4875,7 +5475,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4891,7 +5493,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4907,7 +5511,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4923,7 +5529,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "2000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4939,7 +5547,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "2000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4955,7 +5565,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -4971,7 +5583,9 @@
     "attribute": "Special",
     "power": "2000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy",
       "Donquixote Pirates"
@@ -4988,7 +5602,9 @@
     "attribute": "Special",
     "power": "2000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy",
       "Donquixote Pirates"
@@ -5005,7 +5621,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Giant",
       "Navy"
@@ -5022,7 +5640,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -5038,7 +5658,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -5054,7 +5676,9 @@
     "attribute": "Ranged",
     "power": "1000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -5070,7 +5694,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -5086,7 +5712,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -5102,7 +5730,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -5118,7 +5748,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "2000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -5134,7 +5766,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "2000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -5150,7 +5784,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -5166,7 +5802,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -5182,7 +5820,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -5198,7 +5838,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -5214,7 +5856,9 @@
     "attribute": "Special",
     "power": "8000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM"
     ],
@@ -5230,7 +5874,9 @@
     "attribute": "Special",
     "power": "8000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM"
     ],
@@ -5246,7 +5892,9 @@
     "attribute": "Special",
     "power": "10000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Former Navy"
     ],
@@ -5262,7 +5910,9 @@
     "attribute": "Special",
     "power": "10000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Former Navy"
     ],
@@ -5278,7 +5928,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5294,7 +5946,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5310,7 +5964,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5326,7 +5982,9 @@
     "attribute": "Ranged",
     "power": "5000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "ODYSSEY"
     ],
@@ -5342,7 +6000,9 @@
     "attribute": "Ranged",
     "power": "2000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Land of Wano",
       "Whitebeard Pirates"
@@ -5359,7 +6019,9 @@
     "attribute": "Ranged",
     "power": "4000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5375,7 +6037,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5391,7 +6055,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5407,7 +6073,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Fish-Man",
       "Whitebeard Pirates"
@@ -5424,7 +6092,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Buggy Pirates"
     ],
@@ -5440,7 +6110,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5456,7 +6128,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5472,7 +6146,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5488,7 +6164,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5504,7 +6182,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5520,7 +6200,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5536,7 +6218,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Navy"
     ],
@@ -5552,7 +6236,9 @@
     "attribute": "Wisdom",
     "power": "2000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "ODYSSEY"
     ],
@@ -5568,7 +6254,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5584,7 +6272,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5600,7 +6290,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5616,7 +6308,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5632,7 +6326,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5648,7 +6344,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -5664,7 +6362,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Black Cat Pirates"
@@ -5681,7 +6381,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Black Cat Pirates"
@@ -5698,7 +6400,10 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Green/Yellow",
+    "color": [
+      "Green",
+      "Yellow"
+    ],
     "types": [
       "Fish-Man",
       "East Blue",
@@ -5716,7 +6421,10 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Green/Yellow",
+    "color": [
+      "Green",
+      "Yellow"
+    ],
     "types": [
       "Fish-Man",
       "East Blue",
@@ -5734,7 +6442,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Alvida Pirates"
@@ -5751,7 +6461,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Krieg Pirates"
@@ -5768,7 +6480,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Krieg Pirates"
@@ -5785,7 +6499,9 @@
     "attribute": "Ranged",
     "power": "7000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Krieg Pirates"
@@ -5802,7 +6518,9 @@
     "attribute": "Ranged",
     "power": "7000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Krieg Pirates"
@@ -5819,7 +6537,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Fish-Man",
       "East Blue",
@@ -5837,7 +6557,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Black Cat Pirates"
@@ -5854,7 +6576,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Black Cat Pirates"
@@ -5871,7 +6595,9 @@
     "attribute": "Ranged",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Fish-Man",
       "East Blue",
@@ -5889,7 +6615,9 @@
     "attribute": "Wisdom",
     "power": "2000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Arlong Pirates"
@@ -5906,7 +6634,9 @@
     "attribute": "Strike",
     "power": "2000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Krieg Pirates"
@@ -5923,7 +6653,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Buggy Pirates"
@@ -5940,7 +6672,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "2000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Fish-Man",
       "East Blue",
@@ -5958,7 +6692,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Black Cat Pirates"
@@ -5975,7 +6711,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Animal",
       "East Blue"
@@ -5992,7 +6730,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Black Cat Pirates"
@@ -6009,7 +6749,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Fish-Man",
       "East Blue",
@@ -6027,7 +6769,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Krieg Pirates"
@@ -6044,7 +6788,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "East Blue",
       "Black Cat Pirates"
@@ -6061,7 +6807,9 @@
     "attribute": "Wisdom",
     "power": "5000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6077,7 +6825,9 @@
     "attribute": "Wisdom",
     "power": "5000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6093,7 +6843,9 @@
     "attribute": "Ranged",
     "power": "5000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6109,7 +6861,9 @@
     "attribute": "Ranged",
     "power": "5000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6125,7 +6879,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6141,7 +6897,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6157,7 +6915,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "2000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6173,7 +6933,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6189,7 +6951,9 @@
     "attribute": "Wisdom",
     "power": "4000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6205,7 +6969,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6221,7 +6987,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6237,7 +7005,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6253,7 +7023,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6269,7 +7041,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6285,7 +7059,9 @@
     "attribute": "Ranged",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue",
       "Former Navy"
@@ -6302,7 +7078,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6318,7 +7096,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6334,7 +7114,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue",
       "Straw Hat Crew"
@@ -6351,7 +7133,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue",
       "Straw Hat Crew"
@@ -6368,7 +7152,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue"
     ],
@@ -6384,7 +7170,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "East Blue",
       "Straw Hat Crew"
@@ -6401,7 +7189,9 @@
     "attribute": "Wisdom",
     "power": "5000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Galley-La Company"
@@ -6418,7 +7208,9 @@
     "attribute": "Wisdom",
     "power": "5000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Galley-La Company"
@@ -6435,7 +7227,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Galley-La Company"
@@ -6452,7 +7246,9 @@
     "attribute": "Wisdom",
     "power": "4000",
     "counter": "2000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Galley-La Company"
@@ -6469,7 +7265,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "The Franky Family"
@@ -6486,7 +7284,9 @@
     "attribute": "Wisdom",
     "power": "2000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Merfolk",
       "Water Seven"
@@ -6503,7 +7303,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "The Franky Family"
@@ -6520,7 +7322,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Galley-La Company"
@@ -6537,7 +7341,9 @@
     "attribute": "Wisdom",
     "power": "2000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal",
       "Water Seven"
@@ -6554,7 +7360,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Galley-La Company"
@@ -6571,7 +7379,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Galley-La Company"
@@ -6588,7 +7398,9 @@
     "attribute": "Ranged",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Galley-La Company"
@@ -6605,7 +7417,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down",
       "Jailer Beast"
@@ -6622,7 +7436,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Impel Down",
       "Jailer Beast"
@@ -6639,7 +7455,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Straw Hat Crew"
@@ -6656,7 +7474,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Galley-La Company"
@@ -6673,7 +7493,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Straw Hat Crew"
@@ -6690,7 +7512,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "The Franky Family"
@@ -6707,7 +7531,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Galley-La Company"
@@ -6724,7 +7550,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Water Seven",
       "Galley-La Company"
@@ -6741,7 +7569,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -6757,7 +7587,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -6773,7 +7605,10 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Black/Yellow",
+    "color": [
+      "Black",
+      "Yellow"
+    ],
     "types": [
       "The Four Emperors",
       "Big Mom Pirates"
@@ -6790,7 +7625,10 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Black/Yellow",
+    "color": [
+      "Black",
+      "Yellow"
+    ],
     "types": [
       "The Four Emperors",
       "Big Mom Pirates"
@@ -6807,7 +7645,9 @@
     "attribute": "Slash",
     "power": "9000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -6823,7 +7663,9 @@
     "attribute": "Slash",
     "power": "9000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -6839,7 +7681,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "2000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy",
       "Donquixote Pirates"
@@ -6856,7 +7700,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -6872,7 +7718,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -6888,7 +7736,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "2000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -6904,7 +7754,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "2000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -6920,7 +7772,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -6936,7 +7790,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "World Government"
     ],
@@ -6952,7 +7808,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP6"
     ],
@@ -6968,7 +7826,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -6984,7 +7844,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -7000,7 +7862,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -7016,7 +7880,9 @@
     "attribute": "Ranged",
     "power": "5000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -7032,7 +7898,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -7048,7 +7916,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -7064,7 +7934,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -7080,7 +7952,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -7096,7 +7970,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -7112,7 +7988,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -7128,7 +8006,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP7"
     ],
@@ -7144,7 +8024,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -7160,7 +8042,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -7176,7 +8060,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -7192,7 +8078,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "CP9"
     ],
@@ -7208,7 +8096,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "World Government"
     ],
@@ -7224,7 +8114,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7240,7 +8132,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7256,7 +8150,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates",
       "Homies"
@@ -7273,7 +8169,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Merfolk"
     ],
@@ -7289,7 +8187,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "2000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "The Vinsmoke Family"
     ],
@@ -7305,7 +8205,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7321,7 +8223,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Merfolk"
     ],
@@ -7337,7 +8241,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7353,7 +8259,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7369,7 +8277,9 @@
     "attribute": "Special",
     "power": "2000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7385,7 +8295,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7401,7 +8313,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7417,7 +8331,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7433,7 +8349,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7449,7 +8367,9 @@
     "attribute": "Wisdom",
     "power": "5000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Merfolk",
       "The Sun Pirates"
@@ -7466,7 +8386,9 @@
     "attribute": "Wisdom",
     "power": "2000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7482,7 +8404,9 @@
     "attribute": "Wisdom",
     "power": "2000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7498,7 +8422,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7514,7 +8440,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7530,7 +8458,9 @@
     "attribute": "Special",
     "power": "12000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "The Four Emperors",
       "Big Mom Pirates"
@@ -7547,7 +8477,9 @@
     "attribute": "Special",
     "power": "12000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "The Four Emperors",
       "Big Mom Pirates"
@@ -7564,7 +8496,9 @@
     "attribute": "Slash",
     "power": "1000",
     "counter": "2000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7580,7 +8514,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Merfolk"
     ],
@@ -7596,7 +8532,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates",
       "Homies"
@@ -7613,7 +8551,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "The Four Emperors",
       "Big Mom Pirates"
@@ -7630,7 +8570,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7646,7 +8588,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7662,7 +8606,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "The Four Emperors",
       "Big Mom Pirates"
@@ -7679,7 +8625,9 @@
     "attribute": "Ranged",
     "power": "6000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Sniper Island"
     ],
@@ -7695,7 +8643,9 @@
     "attribute": "Ranged",
     "power": "6000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Sniper Island"
     ],
@@ -7711,7 +8661,9 @@
     "attribute": "Ranged",
     "power": "6000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Sniper Island"
     ],
@@ -7727,7 +8679,9 @@
     "attribute": "Strike",
     "power": "8000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7743,7 +8697,9 @@
     "attribute": "Strike",
     "power": "8000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -7759,7 +8715,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -7776,7 +8734,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -7793,7 +8753,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -7810,7 +8772,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -7826,7 +8790,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Kid Pirates"
@@ -7843,7 +8809,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Baroque Works"
@@ -7860,7 +8828,9 @@
     "attribute": "Strike",
     "power": "8000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "The Four Emperors",
       "Animal Kingdom Pirates"
@@ -7877,7 +8847,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -7894,7 +8866,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -7911,7 +8885,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -7927,7 +8903,9 @@
     "attribute": "Slash",
     "power": "7000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Supernovas",
       "Heart Pirates"
@@ -7944,7 +8922,9 @@
     "attribute": "Special",
     "power": "9000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "The Four Emperors",
       "Animal Kingdom Pirates"
@@ -7961,7 +8941,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM"
     ],
@@ -7977,7 +8959,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "Jellyfish Pirates"
@@ -7994,7 +8978,9 @@
     "attribute": "Wisdom",
     "power": "2000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM"
     ],
@@ -8010,7 +8996,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "Navy"
@@ -8027,7 +9015,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "Straw Hat Crew"
@@ -8044,7 +9034,9 @@
     "attribute": "Slash",
     "power": "10000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "The Four Emperors",
@@ -8062,7 +9054,9 @@
     "attribute": "Slash",
     "power": "10000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "The Four Emperors",
@@ -8080,7 +9074,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "Supernovas",
@@ -8098,7 +9094,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "Supernovas",
@@ -8116,7 +9114,9 @@
     "attribute": "Strike",
     "power": "2000",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "Minks",
@@ -8134,7 +9134,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "Navy"
@@ -8151,7 +9153,9 @@
     "attribute": "Ranged",
     "power": "9000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "Red-Haired Pirates"
@@ -8168,7 +9172,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "Supernovas",
@@ -8186,7 +9192,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "Supernovas",
@@ -8204,7 +9212,9 @@
     "attribute": "Ranged",
     "power": "8000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "FILM",
       "Red-Haired Pirates"
@@ -8221,7 +9231,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -8238,7 +9250,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -8254,7 +9268,9 @@
     "attribute": "Ranged",
     "power": "4000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8270,7 +9286,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Whitebeard Pirates"
     ],
@@ -8286,7 +9304,9 @@
     "attribute": "Special",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "FILM",
       "Supernovas",
@@ -8304,7 +9324,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Fish-Man",
       "The Seven Warlords of the Sea",
@@ -8322,7 +9344,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM"
     ],
@@ -8338,7 +9362,9 @@
     "attribute": "Wisdom",
     "power": "6000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -8354,7 +9380,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8370,7 +9398,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "The Vinsmoke Family"
     ],
@@ -8386,7 +9416,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8402,7 +9434,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -8419,7 +9453,9 @@
     "attribute": "Ranged",
     "power": "2000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8435,7 +9471,9 @@
     "attribute": "Ranged",
     "power": "2000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8451,7 +9489,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Animal",
       "Alabasta"
@@ -8468,7 +9508,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8484,7 +9526,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8500,7 +9544,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8516,7 +9562,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Fish-Man",
       "Straw Hat Crew"
@@ -8533,7 +9581,9 @@
     "attribute": "Strike",
     "power": "1000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Animal",
       "Straw Hat Crew"
@@ -8550,7 +9600,9 @@
     "attribute": "Strike",
     "power": "1000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Animal",
       "Straw Hat Crew"
@@ -8567,7 +9619,9 @@
     "attribute": "Special",
     "power": "1000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8583,7 +9637,9 @@
     "attribute": "Special",
     "power": "1000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8599,7 +9655,9 @@
     "attribute": "Wisdom",
     "power": "5000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8615,7 +9673,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Alabasta"
     ],
@@ -8631,7 +9691,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8647,7 +9709,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8663,7 +9727,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "2000",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8679,7 +9745,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -8696,7 +9764,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -8713,7 +9783,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -8730,7 +9802,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -8747,7 +9821,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Animal",
       "Straw Hat Crew"
@@ -8764,7 +9840,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
@@ -8781,7 +9859,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8797,7 +9877,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Red",
+    "color": [
+      "Red"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -8813,7 +9895,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Kid Pirates"
@@ -8830,7 +9914,9 @@
     "attribute": "Ranged",
     "power": "5000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Firetank Pirates"
     ],
@@ -8846,7 +9932,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Fallen Monk Pirates"
@@ -8863,7 +9951,9 @@
     "attribute": "Special",
     "power": "1000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Firetank Pirates"
@@ -8880,7 +9970,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Kid Pirates"
@@ -8897,7 +9989,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Navy"
     ],
@@ -8913,7 +10007,9 @@
     "attribute": "Special",
     "power": "1000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Bonney Pirates"
@@ -8930,7 +10026,9 @@
     "attribute": "Ranged",
     "power": "3000",
     "counter": "2000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "On-Air Pirates"
@@ -8947,7 +10045,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Heart Pirates"
@@ -8964,7 +10064,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Hawkins Pirates"
@@ -8981,7 +10083,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Kid Pirates"
     ],
@@ -8997,7 +10101,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Minks",
       "Heart Pirates"
@@ -9014,7 +10120,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Kid Pirates"
@@ -9031,7 +10139,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Navy",
       "Supernovas",
@@ -9049,7 +10159,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Heart Pirates"
@@ -9066,7 +10178,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Kid Pirates"
@@ -9083,7 +10197,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Green",
+    "color": [
+      "Green"
+    ],
     "types": [
       "Supernovas",
       "Hawkins Pirates"
@@ -9100,7 +10216,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Baroque Works"
@@ -9117,7 +10235,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea"
     ],
@@ -9133,7 +10253,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Baroque Works"
@@ -9150,7 +10272,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Thriller Bark Pirates"
@@ -9167,7 +10291,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "2000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea"
     ],
@@ -9183,7 +10309,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Fish-Man",
       "The Seven Warlords of the Sea",
@@ -9201,7 +10329,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Navy"
     ],
@@ -9217,7 +10347,9 @@
     "attribute": "Slash",
     "power": "1000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Heart Pirates"
@@ -9234,7 +10366,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
@@ -9251,7 +10385,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
@@ -9268,7 +10404,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Revolutionary Army"
@@ -9285,7 +10423,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Buggy's Delivery"
@@ -9302,7 +10442,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "Biological Weapon",
       "Navy"
@@ -9319,7 +10461,9 @@
     "attribute": "Special",
     "power": "1000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
@@ -9336,7 +10480,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Blackbeard Pirates"
@@ -9353,7 +10499,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "1000",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Blackbeard Pirates"
@@ -9370,7 +10518,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Baroque Works"
@@ -9387,7 +10537,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Revolutionary Army"
@@ -9404,7 +10556,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "types": [
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
@@ -9421,7 +10575,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "The Four Emperors",
       "Animal Kingdom Pirates"
@@ -9438,7 +10594,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "2000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -9454,7 +10612,9 @@
     "attribute": "Strike",
     "power": "10000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "The Four Emperors",
       "Animal Kingdom Pirates"
@@ -9471,7 +10631,9 @@
     "attribute": "Strike",
     "power": "10000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "The Four Emperors",
       "Animal Kingdom Pirates"
@@ -9488,7 +10650,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -9504,7 +10668,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -9520,7 +10686,9 @@
     "attribute": "Ranged",
     "power": "4000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -9536,7 +10704,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "Smile"
@@ -9553,7 +10723,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -9569,7 +10741,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -9585,7 +10759,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates",
       "Smile"
@@ -9602,7 +10778,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -9618,7 +10796,9 @@
     "attribute": "Special",
     "power": "2000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -9634,7 +10814,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -9650,7 +10832,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Navy",
       "Drake Pirates",
@@ -9668,7 +10852,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -9684,7 +10870,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -9700,7 +10888,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "The Four Emperors",
       "Animal Kingdom Pirates"
@@ -9717,7 +10907,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -9733,7 +10925,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "The Four Emperors",
@@ -9751,7 +10945,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "Neo Navy"
@@ -9768,7 +10964,9 @@
     "attribute": "Special",
     "power": "3000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "The Pirates Fest"
@@ -9785,7 +10983,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM"
     ],
@@ -9801,7 +11001,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "Grantesoro"
@@ -9818,7 +11020,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "Grantesoro"
@@ -9835,7 +11039,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM"
     ],
@@ -9851,7 +11057,9 @@
     "attribute": "Slash",
     "power": "7000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "Golden Lion Pirates"
@@ -9868,7 +11076,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "Animal",
@@ -9886,7 +11096,9 @@
     "attribute": "Strike",
     "power": "8000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "Neo Navy"
@@ -9903,7 +11115,9 @@
     "attribute": "Special",
     "power": "10000",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "The Pirates Fest"
@@ -9920,7 +11134,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "Grantesoro"
@@ -9937,7 +11153,9 @@
     "attribute": "Special",
     "power": "6000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "Neo Navy"
@@ -9954,7 +11172,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "2000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "The Pirates Fest"
@@ -9971,7 +11191,9 @@
     "attribute": "Wisdom",
     "power": "4000",
     "counter": "1000",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "Scientist",
@@ -9989,7 +11211,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "Golden Lion Pirates"
@@ -10006,7 +11230,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Purple",
+    "color": [
+      "Purple"
+    ],
     "types": [
       "FILM",
       "The Pirates Fest"
@@ -10023,7 +11249,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10039,7 +11267,9 @@
     "attribute": "Strike",
     "power": "2000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10055,7 +11285,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10071,7 +11303,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10087,7 +11321,9 @@
     "attribute": "Wisdom",
     "power": "6000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10103,7 +11339,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "2000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10119,7 +11357,9 @@
     "attribute": "Wisdom",
     "power": "2000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10135,7 +11375,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10151,7 +11393,9 @@
     "attribute": "Strike",
     "power": "4000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10167,7 +11411,9 @@
     "attribute": "Slash",
     "power": "3000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10183,7 +11429,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10199,7 +11447,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10215,7 +11465,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10231,7 +11483,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10247,7 +11501,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10263,7 +11519,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10279,7 +11537,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10295,7 +11555,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "The Four Emperors",
       "Big Mom Pirates"
@@ -10312,7 +11574,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -10328,7 +11592,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -10344,7 +11610,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -10360,7 +11628,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -10376,7 +11646,9 @@
     "attribute": "Ranged",
     "power": "4000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -10392,7 +11664,9 @@
     "attribute": "Special",
     "power": "1000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -10408,7 +11682,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "2000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -10424,7 +11700,9 @@
     "attribute": "Wisdom",
     "power": "3000",
     "counter": "2000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -10440,7 +11718,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -10456,7 +11736,9 @@
     "attribute": "Special",
     "power": "8000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "The Four Emperors",
       "Big Mom Pirates"
@@ -10473,7 +11755,9 @@
     "attribute": "Special",
     "power": "3000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates",
       "Homies"
@@ -10490,7 +11774,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -10506,7 +11792,9 @@
     "attribute": "Special",
     "power": "3000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates",
       "Homies"
@@ -10523,7 +11811,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Minks",
       "Big Mom Pirates"
@@ -10540,7 +11830,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "The Four Emperors",
       "Big Mom Pirates"
@@ -10557,7 +11849,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates"
     ],
@@ -10573,7 +11867,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Big Mom Pirates",
       "Homies"
@@ -10590,7 +11886,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -10606,7 +11904,9 @@
     "attribute": "Special",
     "power": "3000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "FILM"
     ],
@@ -10622,7 +11922,9 @@
     "attribute": "Wisdom",
     "power": "4000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "East Blue"
     ],
@@ -10638,7 +11940,9 @@
     "attribute": "Strike",
     "power": "1000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10654,7 +11958,9 @@
     "attribute": "Slash",
     "power": "10000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Red-Haired Pirates"
     ],
@@ -10670,7 +11976,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Merfolk"
     ],
@@ -10686,7 +11994,9 @@
     "attribute": "Slash",
     "power": "1000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Alabasta"
     ],
@@ -10702,7 +12012,9 @@
     "attribute": "Slash",
     "power": "2000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Mountain Bandits"
     ],
@@ -10718,7 +12030,9 @@
     "attribute": "Wisdom",
     "power": "false",
     "counter": "2000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Windmill Village"
     ],
@@ -10734,7 +12048,9 @@
     "attribute": "Strike",
     "power": "7000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Navy"
     ],
@@ -10750,7 +12066,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -10766,7 +12084,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Animal"
     ],
@@ -10782,7 +12102,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Former Baroque Works"
     ],
@@ -10798,7 +12120,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -10814,7 +12138,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
@@ -10830,7 +12156,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -10846,7 +12174,9 @@
     "attribute": "Slash",
     "power": "5000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -10862,7 +12192,9 @@
     "attribute": "Strike",
     "power": "6000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Animal Kingdom Pirates"
     ],
@@ -10878,7 +12210,9 @@
     "attribute": "Special",
     "power": "5000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "The Four Emperors",
       "Animal Kingdom Pirates"
@@ -10895,7 +12229,9 @@
     "attribute": "Slash",
     "power": "7000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -10912,7 +12248,9 @@
     "attribute": "Special",
     "power": "4000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano",
       "Kouzuki Clan"
@@ -10929,7 +12267,9 @@
     "attribute": "Special",
     "power": "2000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -10945,7 +12285,9 @@
     "attribute": "Slash",
     "power": "6000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -10961,7 +12303,9 @@
     "attribute": "Slash",
     "power": "4000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -10977,7 +12321,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano",
       "Whitebeard Pirates"
@@ -10994,7 +12340,9 @@
     "attribute": "Strike",
     "power": "5000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano",
       "Straw Hat Crew"
@@ -11011,7 +12359,9 @@
     "attribute": "Strike",
     "power": "3000",
     "counter": "2000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -11027,7 +12377,9 @@
     "attribute": "Special",
     "power": "7000",
     "counter": "1000",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -11043,7 +12395,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano"
     ],
@@ -11059,7 +12413,9 @@
     "attribute": "false",
     "power": "false",
     "counter": "false",
-    "color": "Yellow",
+    "color": [
+      "Yellow"
+    ],
     "types": [
       "Land of Wano"
     ],

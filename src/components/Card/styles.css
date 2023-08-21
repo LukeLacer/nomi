@@ -1,0 +1,91 @@
+.card-wrapper {
+  display: flex;
+  border: solid 3px black;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 10px;
+  max-width: 45%;
+}
+
+.more-info-wrapper {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card-attribute img {
+  height: 1rem;
+}
+
+.card-image-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.card-title-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.more-details-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.more-details-wrapper span:not(:last-child):after {
+  content: '|';
+  margin: 0 10px;
+}
+
+.card-colors-wrapper span:not(:last-child):after {
+  content: '|';
+  margin: 0 10px;
+}
+
+.card-types-data-wrapper span:not(:last-child):after {
+  content: '|';
+  margin: 0 10px;
+}
+
+.card-types-wrapper {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-basic-info-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.card-detailed-info-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.card-detailed-info-wrapper div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-info-label {
+  font-weight: 700;
+}
+
+.card-effects-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #ccc;
+  padding: 10px;
+}
+
+.card-effects-wrapper span:last-child {
+  margin-top: 5px;
+  text-align: justify;
+}
