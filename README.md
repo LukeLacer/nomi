@@ -38,3 +38,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 * ed:"EDITION" and ed:EDITION returns card of that editions (if you put more than one edition it gets all of then)
 EDITION is the edition code (P, OP01, OP02 ... ST09) and they are not case sensitive
 ed is case sensitive, it have to be lower case!
+
+* nb for number was added as option to search with string as the same way as ed for edition
