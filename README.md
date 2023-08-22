@@ -35,8 +35,12 @@ It correctly bundles React in production mode and optimizes the build for the be
 *Infinite Scroll
 
 #Search Engine 101
-* ed:"EDITION" and ed:EDITION returns card of that editions (if you put more than one edition it gets all of then)
-EDITION is the edition code (P, OP01, OP02 ... ST09) and they are not case sensitive
-ed is case sensitive, it have to be lower case!
+* [CODE]:"[SEARCH_VALUE_WITH_SPACES]" or [CODE]:[SEARCH_VALUE_WITH_NO_SPACES]
+* Codes:
+** s (card set)
+** n (card number)
+** c  (card color)
+** t  (card category: Leader, Stage, Event, Character)
+** e  (effects)
 
-* nb for number was added as option to search with string as the same way as ed for edition
+* code is case sensitive but search values aren't
