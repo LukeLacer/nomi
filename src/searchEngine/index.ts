@@ -6,8 +6,6 @@ const find = (allcards: Array<CardType>, searchValue: string, removeAlters: bool
 
     const cardSets = getCardSets(searchValue)
 
-    console.log(cardSets)
-
     allcards.forEach(card => {
         const lowercaseColor = card.color.map(color => color.toLowerCase())
         const lowercaseTypes = card.types.map(type => type.toLowerCase())
