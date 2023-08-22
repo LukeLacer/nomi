@@ -33,4 +33,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 #TODO
 
 *Infinite Scroll
-*Message on open website saying that the website uses local storage to do everything and it doesn't sync with other devices.
+
+#Search Engine 101
+* ed:"EDITION" and ed:EDITION returns card of that editions (if you put more than one edition it gets all of then)
