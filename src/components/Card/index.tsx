@@ -38,7 +38,7 @@ const Card = (props: CardProps) => {
                 </div>
                 <div className="card-effects-wrapper">
                     <span className="card-info-label">EFFECTS</span>
-                    <span>{effects}</span>
+                    <span>{effects !== 'false' ? effects : 'No effects'}</span>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react"
+import React, { ReactNode, useEffect } from "react"
 import "./styles.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
@@ -12,8 +12,13 @@ type ModalProps = {
 
 const Modal = (props: ModalProps) => {
     const {children, closeModal, isOpened, title} = props
+
+    useEffect(() => {
+        document.body.style.overflow = isOpened ? 'hidden' : 'auto'
+    }, [isOpened])
+    
     return isOpened ? <>
-        <div className="modal-background" />
+        <div className="modal-background" onClick={() => closeModal()} />
         <div className="modal-container">
             <div className="modal-close-button-container">
                 <button className="modal-close-button" onClick={() => closeModal()}>
