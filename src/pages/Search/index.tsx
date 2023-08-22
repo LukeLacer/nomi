@@ -4,7 +4,7 @@ import "./styles.css"
 import allcards from "../../data/allcards.json"
 import { Header, Modal } from "../../components"
 import { strings } from "../../helpers"
-import { find } from "../../utils/search"
+import { find } from "../../searchEngine"
 import { useNavigate } from "react-router-dom"
 
 const Search = () => {
@@ -59,6 +59,7 @@ const Search = () => {
         <input
           className="search-input"
           type="text"
+          autoFocus
           onChange={e => setSearchValue(e.target.value)}
           onKeyDown={e => handleKeyDown(e)}
         />
