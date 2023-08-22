@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom"
 const Search = () => {
   const [localStorageWarningModal, setLocalStorageWarningModal] = useState<boolean>(false)
   const [searchValue, setSearchValue] = useState<string>('')
+  const [removeAlters, setRemoveAlters] = useState<boolean>(false)
 
   useEffect(() => {
     const rememberMe = localStorage.getItem('rememberMe')
@@ -25,12 +26,22 @@ const Search = () => {
   const navigate = useNavigate();
 
   const clickSearchHandler = () => {
-    navigate('Results', { state: { cards: find(allcards, searchValue) } })
+    navigate('Results', { state: { cards: find(allcards, searchValue, removeAlters) } })
   }
 
   const neverRememberMeHandler = () => {
     localStorage.setItem('rememberMe', 'false')
     setLocalStorageWarningModal(false)
+  }
+
+  const removeAltersHandler = () => {
+    setRemoveAlters(!removeAlters)
+  }
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      clickSearchHandler()
+    }
   }
   
   return (
@@ -42,11 +53,26 @@ const Search = () => {
         title={strings.localStorageWarningModal.title}
       >
         <span>{strings.localStorageWarningModal.message}</span>
-        <button onClick={() => neverRememberMeHandler()}>Don't remeber me again</button>
+        <button className='remeber-storage-button' onClick={() => neverRememberMeHandler()}>Don't remeber me again</button>
       </Modal>
       <div className="search-wrapper">
-        <input className="search-input" type="text" onChange={e => setSearchValue(e.target.value)} />
+        <input
+          className="search-input"
+          type="text"
+          onChange={e => setSearchValue(e.target.value)}
+          onKeyDown={e => handleKeyDown(e)}
+        />
         <button className="search-button" onClick={() => clickSearchHandler()}>Search</button>
+        <div className="search-options-wrapper">
+          <input
+            type="checkbox"
+            name="removeAlters"
+            id="removeAlters"
+            checked={removeAlters}
+            onChange={() => removeAltersHandler()}
+          />
+          <label htmlFor="removeAlters">Remove alternative cards from results</label>
+        </div>
       </div>
     </div>
   );

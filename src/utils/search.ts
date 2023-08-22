@@ -1,6 +1,6 @@
 import { CardType } from "../types";
 
-const find = (allcards: Array<CardType>, searchValue: string) => {
+const find = (allcards: Array<CardType>, searchValue: string, removeAlters: boolean) => {
     const result: Array<CardType> = []
     
     allcards.forEach(card => {
@@ -21,7 +21,9 @@ const find = (allcards: Array<CardType>, searchValue: string) => {
             || card.rarity.toLowerCase().includes(lowercaseSearchValue)
             || lowercaseTypes.includes(lowercaseSearchValue)
         ) {
-            result.push(card)
+            if (!(removeAlters && card.code.includes('_'))) {
+                result.push(card)
+            }
         }
     })
     return result
