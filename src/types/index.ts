@@ -13,4 +13,12 @@ type CardType = {
     life: string
 }
 
-export type { CardType }
+type SearchResultType = {
+    normalCards: Array<CardType>;
+    alteredCards: Array<CardType>;
+    promotionalCards: Array<CardType>;
+    removeAlteredCards: boolean;
+    removePromotionalCards: boolean;
+  }
+
+export type { CardType, SearchResultType }

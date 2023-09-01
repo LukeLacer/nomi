@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 
 import "./styles.css"
 import allcards from "../../data/allcards.json"
-import { Header, Modal } from "../../components"
+import { Header, HowTo, Modal } from "../../components"
 import { strings } from "../../helpers"
 import { find } from "../../searchEngine"
 import { useNavigate } from "react-router-dom"
@@ -26,7 +26,7 @@ const Search = () => {
   const navigate = useNavigate();
 
   const clickSearchHandler = () => {
-    navigate('Results', { state: { cards: find(allcards, searchValue, removeAlters) } })
+    navigate('Results', { state: find(allcards, searchValue, removeAlters) })
   }
 
   const neverRememberMeHandler = () => {
@@ -74,6 +74,7 @@ const Search = () => {
           />
           <label htmlFor="removeAlters">Remove alternative cards from results</label>
         </div>
+        <HowTo />
       </div>
     </div>
   );

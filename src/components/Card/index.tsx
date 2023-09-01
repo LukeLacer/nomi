@@ -11,7 +11,7 @@ const Card = (props: CardProps) => {
     return (
         <div className="card-wrapper">
             <div className="card-image-wrapper">
-                <img src={"https://en.onepiece-cardgame.com/images/cardlist/card/" + code + ".png"} alt="" width="300px"/>
+                <img src={"https://en.onepiece-cardgame.com/images/cardlist/card/" + code + ".png"} alt="" width="300px" loading="lazy"/>
             </div>
             <div className="more-info-wrapper">
                 <div className="card-title-wrapper"><span>{name}</span></div>
