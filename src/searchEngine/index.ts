@@ -1,5 +1,5 @@
 import { CardType, SearchResultType } from "../types";
-import { cardExistsInArray } from "../utils";
+import { filterCardListByPropertyList } from "../utils";
 import { getCardProperties } from "./cardPropertyByString";
 
 const find = (
@@ -8,7 +8,7 @@ const find = (
   separateAlters: boolean = false,
   separatePromotionals: boolean = false
 ) => {
-  const result: Array<CardType> = [];
+  var result: Array<CardType> = allcards;
 
   const cardSets = getCardProperties("s", searchValue);
   const cardNumbers = getCardProperties("n", searchValue);
@@ -16,49 +16,32 @@ const find = (
   const cardCategories = getCardProperties("t", searchValue);
   const cardEffects = getCardProperties("e", searchValue);
 
-  const pushIfDoesntExist = (array: CardType[], card: CardType) => {
-    if (!cardExistsInArray(array, card)) array.push(card);
-  };
+  const lowercaseSearchValue = searchValue.toLowerCase();
 
-  allcards.forEach((card) => {
-    const lowercaseColor = card.color.map((color) => color.toLowerCase());
-    const lowercaseTypes = card.types.map((type) => type.toLowerCase());
-    const lowercaseSearchValue = searchValue.toLowerCase();
-    if (
-      cardSets.length > 0 ||
-      cardNumbers.length > 0 ||
-      cardColors.length > 0 ||
-      cardCategories.length > 0 ||
-      cardEffects.length > 0
-    ) {
-      cardSets.forEach((cardSet) => {
-        if (card.code.toLowerCase().includes(cardSet.toLowerCase())) {
-          pushIfDoesntExist(result, card);
-        }
-      });
-      cardNumbers.forEach((cardNumber) => {
-        if (card.code.toLowerCase().includes(cardNumber.toLowerCase())) {
-          pushIfDoesntExist(result, card);
-        }
-      });
-      cardColors.forEach((cardColor) => {
-        card.color.forEach((color) => {
-          if (color.toLowerCase().includes(cardColor.toLowerCase()))
-            pushIfDoesntExist(result, card);
-        });
-      });
-      cardCategories.forEach((cardCategory) => {
-        if (card.category.toLowerCase().includes(cardCategory.toLowerCase())) {
-          pushIfDoesntExist(result, card);
-        }
-      });
-      cardEffects.forEach((cardEffect) => {
-        if (card.effects.toLowerCase().includes(cardEffect.toLowerCase())) {
-          pushIfDoesntExist(result, card);
-        }
-      });
-    } else {
-      if (
+  result = filterCardListByPropertyList(result, cardSets, 'code')
+
+  result = filterCardListByPropertyList(result, cardNumbers, 'code')
+
+  result = filterCardListByPropertyList(result, cardColors, 'color')
+
+  result = filterCardListByPropertyList(result, cardCategories, 'category')
+
+  result = filterCardListByPropertyList(result, cardEffects, 'effects')
+
+  if (
+    [
+      ...cardSets,
+      ...cardNumbers,
+      ...cardColors,
+      ...cardCategories,
+      ...cardEffects,
+    ].length <= 0
+  ) {
+    result = result.filter((card) => {
+      const lowercaseColor = card.color.map((color) => color.toLowerCase());
+      const lowercaseTypes = card.types.map((type) => type.toLowerCase());
+
+      return (
         card.attribute.toLowerCase().includes(lowercaseSearchValue) ||
         card.category.toLowerCase().includes(lowercaseSearchValue) ||
         card.code.toLowerCase().includes(lowercaseSearchValue) ||
@@ -71,11 +54,9 @@ const find = (
         card.power.toLowerCase().includes(lowercaseSearchValue) ||
         card.rarity.toLowerCase().includes(lowercaseSearchValue) ||
         lowercaseTypes.includes(lowercaseSearchValue)
-      ) {
-        pushIfDoesntExist(result, card);
-      }
-    }
-  });
+      );
+    });
+  }
 
   const objectToReturn: SearchResultType = {
     normalCards: result.filter(
