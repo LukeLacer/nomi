@@ -1,49 +1,56 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react";
 
-import "./styles.css"
-import allcards from "../../data/allcards.json"
-import { Header, HowTo, Modal } from "../../components"
-import { strings } from "../../helpers"
-import { find } from "../../searchEngine"
-import { useNavigate } from "react-router-dom"
+import "./styles.css";
+import allcards from "../../data/allcards.json";
+import { Header, HowTo, Modal } from "../../components";
+import { strings } from "../../helpers";
+import { find } from "../../searchEngine";
+import { useNavigate } from "react-router-dom";
 
 const Search = () => {
-  const [localStorageWarningModal, setLocalStorageWarningModal] = useState<boolean>(false)
-  const [searchValue, setSearchValue] = useState<string>('')
-  const [removeAlters, setRemoveAlters] = useState<boolean>(false)
+  const [localStorageWarningModal, setLocalStorageWarningModal] =
+    useState<boolean>(false);
+  const [searchValue, setSearchValue] = useState<string>("");
+  const [removeAlters, setRemoveAlters] = useState<boolean>(false);
+  const [removePromotionals, setRemovePromotionals] = useState<boolean>(false);
 
   useEffect(() => {
-    const rememberMe = localStorage.getItem('rememberMe')
+    const rememberMe = localStorage.getItem("rememberMe");
 
-    if (rememberMe === 'false') {
-      setLocalStorageWarningModal(false)
+    if (rememberMe === "false") {
+      setLocalStorageWarningModal(false);
     } else {
-      setLocalStorageWarningModal(true)
+      setLocalStorageWarningModal(true);
     }
-
-  }, [])
+  }, []);
 
   const navigate = useNavigate();
 
   const clickSearchHandler = () => {
-    navigate('Results', { state: find(allcards, searchValue, removeAlters) })
-  }
+    navigate("Results", {
+      state: find(allcards, searchValue, removeAlters, removePromotionals),
+    });
+  };
 
   const neverRememberMeHandler = () => {
-    localStorage.setItem('rememberMe', 'false')
-    setLocalStorageWarningModal(false)
-  }
+    localStorage.setItem("rememberMe", "false");
+    setLocalStorageWarningModal(false);
+  };
 
   const removeAltersHandler = () => {
-    setRemoveAlters(!removeAlters)
-  }
+    setRemoveAlters(!removeAlters);
+  };
+
+  const removePromotionalsHandler = () => {
+    setRemovePromotionals(!removePromotionals);
+  };
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter') {
-      clickSearchHandler()
+    if (e.key === "Enter") {
+      clickSearchHandler();
     }
-  }
-  
+  };
+
   return (
     <div className="search-page-wrapper">
       <Header />
@@ -53,26 +60,49 @@ const Search = () => {
         title={strings.localStorageWarningModal.title}
       >
         <span>{strings.localStorageWarningModal.message}</span>
-        <button className='remeber-storage-button' onClick={() => neverRememberMeHandler()}>Don't remeber me again</button>
+        <button
+          className="remeber-storage-button"
+          onClick={() => neverRememberMeHandler()}
+        >
+          Don't remeber me again
+        </button>
       </Modal>
       <div className="search-wrapper">
         <input
           className="search-input"
           type="text"
           autoFocus
-          onChange={e => setSearchValue(e.target.value)}
-          onKeyDown={e => handleKeyDown(e)}
+          onChange={(e) => setSearchValue(e.target.value)}
+          onKeyDown={(e) => handleKeyDown(e)}
         />
-        <button className="search-button" onClick={() => clickSearchHandler()}>Search</button>
+        <button className="search-button" onClick={() => clickSearchHandler()}>
+          Search
+        </button>
         <div className="search-options-wrapper">
-          <input
-            type="checkbox"
-            name="removeAlters"
-            id="removeAlters"
-            checked={removeAlters}
-            onChange={() => removeAltersHandler()}
-          />
-          <label htmlFor="removeAlters">Remove alternative cards from results</label>
+          <div>
+            <input
+              type="checkbox"
+              name="removeAlters"
+              id="removeAlters"
+              checked={removeAlters}
+              onChange={() => removeAltersHandler()}
+            />
+            <label htmlFor="removeAlters">
+              Remove alternative cards from results
+            </label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="removePromotionals"
+              id="removePromotionals"
+              checked={removePromotionals}
+              onChange={() => removePromotionalsHandler()}
+            />
+            <label htmlFor="removePromotionals">
+              Remove promotional cards from results
+            </label>
+          </div>
         </div>
         <HowTo />
       </div>

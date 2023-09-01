@@ -32,6 +32,8 @@ const Result = () => {
       promotional: results.promotionalCards,
       altered: results.alteredCards,
     });
+    setRemoveAlters(results.removeAlteredCards)
+    setRemovePromotionals(results.removePromotionalCards)
   }, [results]);
 
   useEffect(() => {
