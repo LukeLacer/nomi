@@ -4,3 +4,28 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.sub-header-wrapper {
+    padding: 5px 50px;
+    width: max-content;
+    border-radius: 6px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(200, 200, 200, .9);
+    z-index:2;
+    font-weight: 700;
+    width: 200px;
+}
+
+.filters-wrapper {
+    padding: 5px 0;
+}
+
+.remove-alternative-wrapper {
+    padding-bottom: 5px;
+}
+
+#removePromotionals, #removeAlters {
+    margin-right: 5px;
+}

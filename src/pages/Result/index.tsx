@@ -10,68 +10,77 @@ type AllCardsType = {
   normal: Array<CardType>;
   promotional: Array<CardType>;
   altered: Array<CardType>;
-}
+};
 
 const Result = () => {
-  const [cardsToShow, setCardsToShow] = useState<Array<CardType>>([])
+  const [cardsToShow, setCardsToShow] = useState<Array<CardType>>([]);
 
-  const [allCards, setAllCards] = useState<AllCardsType>({normal: [], promotional: [], altered: []})
+  const [allCards, setAllCards] = useState<AllCardsType>({
+    normal: [],
+    promotional: [],
+    altered: [],
+  });
 
-  const [removeAlters, setRemoveAlters] = useState<boolean>(false)
-  const [removePromotionals, setRemovePromotionals] = useState<boolean>(false)
+  const [removeAlters, setRemoveAlters] = useState<boolean>(false);
+  const [removePromotionals, setRemovePromotionals] = useState<boolean>(false);
 
-  const results: SearchResultType = useLocation().state
+  const results: SearchResultType = useLocation().state;
 
   useEffect(() => {
     setAllCards({
       normal: results.normalCards,
       promotional: results.promotionalCards,
-      altered: results.alteredCards
-    })
-  }, [results])
+      altered: results.alteredCards,
+    });
+  }, [results]);
 
   useEffect(() => {
-    const { normal, promotional, altered } = allCards
+    const { normal, promotional, altered } = allCards;
 
-    const cardArrayToShow: Array<CardType> = []
+    const cardArrayToShow: Array<CardType> = [];
 
-    cardArrayToShow.push(...normal)
-    if (!removeAlters) cardArrayToShow.push(...altered)
-    if (!removePromotionals) cardArrayToShow.push(...promotional)
+    cardArrayToShow.push(...normal);
+    if (!removeAlters) cardArrayToShow.push(...altered);
+    if (!removePromotionals) cardArrayToShow.push(...promotional);
 
-    setCardsToShow(sortCardArrayByCode(cardArrayToShow))
-    
-  }, [allCards, removeAlters, removePromotionals])
-  
+    setCardsToShow(sortCardArrayByCode(cardArrayToShow));
+  }, [allCards, removeAlters, removePromotionals]);
+
   const removeAltersHandler = () => {
-    setRemoveAlters(!removeAlters)
-  }
+    setRemoveAlters(!removeAlters);
+  };
 
   const removePromotionalsHandler = () => {
-    setRemovePromotionals(!removePromotionals)
-  }
+    setRemovePromotionals(!removePromotionals);
+  };
 
   return (
     <div>
       <Header />
-      <div>
-        <span>{cardsToShow?.length}</span>
-        <input
-          type="checkbox"
-          name="removeAlters"
-          id="removeAlters"
-          checked={removeAlters}
-          onChange={() => removeAltersHandler()}
-        />
-        <label htmlFor="removeAlters">Remove alternative cards from results</label>
-        <input
-          type="checkbox"
-          name="removePromotionals"
-          id="removePromotionals"
-          checked={removePromotionals}
-          onChange={() => removePromotionalsHandler()}
-        />
-        <label htmlFor="removePromotionals">Remove promotional cards from results</label>
+      <div className="sub-header-wrapper">
+        <div className="filters-wrapper">
+          <div className="remove-alternative-wrapper">
+            <input
+              type="checkbox"
+              name="removeAlters"
+              id="removeAlters"
+              checked={removeAlters}
+              onChange={() => removeAltersHandler()}
+            />
+            <label htmlFor="removeAlters">Remove alternative</label>
+          </div>
+          <div className="remove-promotional-wrapper">
+            <input
+              type="checkbox"
+              name="removePromotionals"
+              id="removePromotionals"
+              checked={removePromotionals}
+              onChange={() => removePromotionalsHandler()}
+            />
+            <label htmlFor="removePromotionals">Remove promotional</label>
+          </div>
+        </div>
+        <p>{cardsToShow?.length} results for this search</p>
       </div>
       <div className="results-wrapper">
         {cardsToShow?.map((card) => {
