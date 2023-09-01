@@ -15,6 +15,7 @@ const find = (
   const cardColors = getCardProperties("c", searchValue);
   const cardCategories = getCardProperties("t", searchValue);
   const cardEffects = getCardProperties("e", searchValue);
+  const cardNames = getCardProperties("a", searchValue);
 
   const lowercaseSearchValue = searchValue.toLowerCase();
 
@@ -28,6 +29,8 @@ const find = (
 
   result = filterCardListByPropertyList(result, cardEffects, 'effects')
 
+  result = filterCardListByPropertyList(result, cardNames, 'name')
+
   if (
     [
       ...cardSets,
@@ -35,6 +38,7 @@ const find = (
       ...cardColors,
       ...cardCategories,
       ...cardEffects,
+      ...cardNames,
     ].length <= 0
   ) {
     result = result.filter((card) => {

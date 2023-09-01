@@ -18,7 +18,7 @@ const filterCardListByPropertyList = (
         if ((card[property] as string).toLowerCase().includes(propertyValue.toLowerCase())) isTrue = true
       } else {
       (card[property] as Array<string>).forEach((propertyArrayValue) => {
-        if (propertyArrayValue.toLowerCase() === propertyValue.toLowerCase())
+        if (propertyArrayValue.toLowerCase().includes(propertyValue.toLowerCase()))
           isTrue = true;
       });
     }
