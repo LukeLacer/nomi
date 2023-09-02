@@ -13,8 +13,9 @@ const OpenDeck = () => {
   var count = 0;
 
   useEffect(() => {
-    console.log(stateData);
-    setDeck(JSON.parse(localStorage.getItem(stateData.deckName)!));
+    setDeck(JSON.parse(localStorage.getItem('my_local_decks')!).find(
+      (deck: DeckType) => deck.name === stateData.deckName
+    ))
   }, [stateData]);
 
   return (

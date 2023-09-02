@@ -24,3 +24,26 @@
     cursor: pointer;
     background-color: beige;
 }
+
+.create-deck-modal-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-deck-modal-button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.create-deck-modal-inputs * {
+    padding: 2px;
+    margin: 5px;
+}
+
+.create-deck-modal-button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+}

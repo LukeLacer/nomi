@@ -1,5 +1,7 @@
 import { CardType } from "../types";
 
+import { validateCardCode } from "./validade";
+
 const sortCardArrayByCode = (array: CardType[]) => {
   return array.sort((a, b) => (a.code > b.code ? 1 : -1));
 };
@@ -30,4 +32,4 @@ const filterCardListByPropertyList = (
   return arrayToReturn;
 };
 
-export { sortCardArrayByCode, filterCardListByPropertyList };
+export { sortCardArrayByCode, filterCardListByPropertyList, validateCardCode };
