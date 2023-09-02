@@ -10,3 +10,17 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+.create-deck-thumb {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-deck-thumb:hover {
+    cursor: pointer;
+    background-color: beige;
+}
