@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import "./styles.css";
 import { CardType, SearchResultType } from "../../types";
-import { Header, Card } from "../../components";
+import { Header, CardThumb } from "../../components";
 import { useLocation } from "react-router-dom";
 import { sortCardArrayByCode } from "../../utils";
 
@@ -86,7 +86,7 @@ const Result = () => {
       </div>
       <div className="results-wrapper">
         {cardsToShow?.map((card) => {
-          return <Card card={card} />;
+          return <CardThumb card={card} />;
         })}
       </div>
     </div>

@@ -1,0 +1,34 @@
+.deck-wrapper {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deck-wrapper:hover {
+  cursor: pointer;
+  background-color: beige;
+}
+
+.deck-name {
+  margin: 10px 0;
+}
+
+.deck-description {
+  white-space: pre-line;
+  margin-bottom: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 5px 3px 2px #999;
+  padding: 10px;
+}
+
+.deck-leader-image {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  object-position: 0% 0%; 
+}

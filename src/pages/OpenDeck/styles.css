@@ -1,0 +1,25 @@
+.opened-deck-description {
+    white-space: pre-line;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: fit-content;
+    padding: 10px;
+}
+
+.deck-opened-wrapper {
+    margin: 10px;
+}
+
+.deck-opened-top-info {
+    display: flex;
+    margin: 30px;
+}
+
+.opened-deck-leader-image {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.opened-deck-list {
+    margin: 20px;
+}

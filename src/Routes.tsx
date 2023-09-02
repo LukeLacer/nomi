@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, BrowserRouter, Routes as Routing } from "react-router-dom";
 
-import { Result, Search } from "./pages";
+import { Result, Search, MyDecks, OpenDeck } from "./pages";
 
 const Routes = () => {
   return(
@@ -9,6 +9,8 @@ const Routes = () => {
           <Routing>
             <Route Component = { Search }  path="/" />
             <Route Component = { Result }  path="/results" />
+            <Route Component = { MyDecks }  path="/mydecks" />
+            <Route Component = { OpenDeck }  path="/opendeck" />
           </Routing>
       </BrowserRouter>
   )

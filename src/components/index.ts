@@ -1,13 +1,17 @@
 import Header from './Header'
 import Modal from './Modal'
-import Card from './Card'
+import CardThumb from './CardThumb'
 import HowTo from './HowTo'
 import Tooltip from './Tooltip'
+import DeckThumb from './DeckThumb'
+import CardImage from './CardImage'
 
 export {
     Header,
     Modal,
-    Card,
+    CardThumb,
     HowTo,
-    Tooltip
+    Tooltip,
+    DeckThumb,
+    CardImage
 }

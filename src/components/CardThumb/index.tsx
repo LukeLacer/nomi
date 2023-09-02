@@ -1,17 +1,18 @@
 import React from "react";
 import "./styles.css"
 import { CardType } from "../../types";
+import { CardImage } from "..";
 
-type CardProps = {
+type CardThumbProps = {
     card: CardType
 }
 
-const Card = (props: CardProps) => {
+const CardThumb = (props: CardThumbProps) => {
     const { code, name, attribute, power, color, counter, types, effects, rarity, category, cost, life } = props.card
     return (
         <div className="card-wrapper">
             <div className="card-image-wrapper">
-                <img src={"https://en.onepiece-cardgame.com/images/cardlist/card/" + code + ".png"} alt="" width="100%" loading="lazy"/>
+                <CardImage code={code} width="100%" loading="lazy"/>
             </div>
             <div className="more-info-wrapper">
                 <div className="card-title-wrapper"><span>{name}</span></div>
@@ -45,4 +46,4 @@ const Card = (props: CardProps) => {
     )
 }
 
-export default Card
+export default CardThumb
