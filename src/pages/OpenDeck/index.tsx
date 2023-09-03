@@ -4,6 +4,7 @@ import "./styles.css";
 import { DeckType } from "../../types";
 import { useLocation } from "react-router-dom";
 import { CardImage, Header } from "../../components";
+import { countCardsInDeck, generateDeckList } from "../../utils";
 
 const OpenDeck = () => {
   const [deck, setDeck] = useState<DeckType>();
@@ -13,9 +14,11 @@ const OpenDeck = () => {
   var count = 0;
 
   useEffect(() => {
-    setDeck(JSON.parse(localStorage.getItem('my_local_decks')!).find(
-      (deck: DeckType) => deck.name === stateData.deckName
-    ))
+    setDeck(
+      JSON.parse(localStorage.getItem("my_local_decks")!).find(
+        (deck: DeckType) => deck.name === stateData.deckName
+      )
+    );
   }, [stateData]);
 
   return (
@@ -33,12 +36,27 @@ const OpenDeck = () => {
               </div>
             </div>
           </div>
+          <div>
+            {deck ? generateDeckList(deck).map(card => <p>{card}</p>) : null}
+          </div>
         </div>
         <div className="opened-deck-list">
-          {deck?.cards.map((card) => {
-            count++;
-            return <CardImage key={card + count} code={card} width="100px" />;
-          })}
+          {deck
+            ? countCardsInDeck(deck).map((card) => {
+                count++;
+                return (
+                  <div className="cards-in-deck-wrapper">
+                    {[...Array(card.numberOfCards)].map((e, i) => (
+                      <CardImage
+                        key={card.code + count + i}
+                        code={card.code}
+                        height="150px"
+                      />
+                    ))}
+                  </div>
+                );
+              })
+            : null}
         </div>
       </div>
     </>

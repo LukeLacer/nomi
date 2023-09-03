@@ -1,4 +1,4 @@
-import { CardType } from "../types";
+import { CardType, DeckCardsType, DeckType } from "../types";
 
 import { validateCardCode } from "./validade";
 
@@ -16,14 +16,23 @@ const filterCardListByPropertyList = (
   propertyList.forEach((propertyValue) => {
     arrayToReturn = cardList.filter((card) => {
       var isTrue = false;
-      if (typeof card[property] === 'string') {
-        if ((card[property] as string).toLowerCase().includes(propertyValue.toLowerCase())) isTrue = true
-      } else {
-      (card[property] as Array<string>).forEach((propertyArrayValue) => {
-        if (propertyArrayValue.toLowerCase().includes(propertyValue.toLowerCase()))
+      if (typeof card[property] === "string") {
+        if (
+          (card[property] as string)
+            .toLowerCase()
+            .includes(propertyValue.toLowerCase())
+        )
           isTrue = true;
-      });
-    }
+      } else {
+        (card[property] as Array<string>).forEach((propertyArrayValue) => {
+          if (
+            propertyArrayValue
+              .toLowerCase()
+              .includes(propertyValue.toLowerCase())
+          )
+            isTrue = true;
+        });
+      }
 
       return isTrue;
     });
@@ -32,4 +41,29 @@ const filterCardListByPropertyList = (
   return arrayToReturn;
 };
 
-export { sortCardArrayByCode, filterCardListByPropertyList, validateCardCode };
+const countCardsInDeck = (deck: DeckType) => {
+  var cardsOfDeckToReturn = deck.cards.reduce((a: Array<DeckCardsType>, b: string) => {
+    var i = a.findIndex((x) => x.code === b);
+    return (
+      i === -1
+        ? a.push({ code: b, numberOfCards: 1 })
+        : a[i].numberOfCards++,
+      a
+    );
+  }, []);
+  return cardsOfDeckToReturn.sort((a, b) => (a.numberOfCards < b.numberOfCards) ? 1 : -1);
+};
+
+const generateDeckList = (deck: DeckType) => {
+  return countCardsInDeck(deck).map(card => {
+    return card.numberOfCards + " " + validateCardCode(card.code).name + " (" + card.code + ")"
+  }) 
+}
+
+export {
+  sortCardArrayByCode,
+  filterCardListByPropertyList,
+  validateCardCode,
+  countCardsInDeck,
+  generateDeckList
+};

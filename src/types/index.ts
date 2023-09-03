@@ -28,4 +28,9 @@ type DeckType = {
   cards: Array<string>;
 };
 
-export type { CardType, SearchResultType, DeckType };
+type DeckCardsType = {
+  code: string;
+  numberOfCards: number;
+};
+
+export type { CardType, SearchResultType, DeckType, DeckCardsType };

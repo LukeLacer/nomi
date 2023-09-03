@@ -22,4 +22,19 @@
 
 .opened-deck-list {
     margin: 20px;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-top: -70px;
+}
+
+.cards-in-deck-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 220px;
+    margin: 0 5px;
+}
+
+.cards-in-deck-wrapper img:not(:first-child) {
+    margin-bottom: -170px;
 }
