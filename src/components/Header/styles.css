@@ -28,6 +28,10 @@
   justify-content: flex-end;
 }
 
+.navbar-wrapper button:not(:last-child) {
+  margin-right: 40px;
+}
+
 .navbar-button {
   border: none;
   text-decoration: none;

@@ -1,0 +1,27 @@
+.my-collection-table td, .my-collection-table th{
+    padding: 2px 5px;
+}
+
+.my-collection-table, .my-collection-table td, .my-collection-table tr, .my-collection-table th{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.my-collection-table {
+    margin: auto;
+}
+
+.want-have-input {
+    font-size: 2rem;
+    width: 5rem;
+    text-align: center;
+}
+
+.filters-wrapper {
+    margin: 10px;
+}
+
+.filters-wrapper label {
+    margin-left: 2px;
+}

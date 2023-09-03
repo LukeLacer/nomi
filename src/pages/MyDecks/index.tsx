@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import "./styles.css";
 import { DeckType } from "../../types";
 import { DeckThumb, Header, Modal } from "../../components";
-import { validateCardCode } from "../../utils";
+import { getCardByCode } from "../../utils";
 
 const MyDecks = () => {
   const [decks, setDecks] = useState<Array<DeckType>>([]);
@@ -30,7 +30,7 @@ const MyDecks = () => {
     });
 
     const leaderIsValid =
-      validateCardCode(newDeckLeaderValue).category === "LEADER";
+      getCardByCode(newDeckLeaderValue).category === "LEADER";
 
     if (!deckNameAlreadyExists && leaderIsValid) {
       const deckList = JSON.parse(newDeckCardsValue);

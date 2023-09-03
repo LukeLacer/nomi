@@ -1,6 +1,6 @@
 import { CardType, DeckCardsType, DeckType } from "../types";
 
-import { validateCardCode } from "./validade";
+import { getCardByCode } from "./validade";
 
 const sortCardArrayByCode = (array: CardType[]) => {
   return array.sort((a, b) => (a.code > b.code ? 1 : -1));
@@ -56,14 +56,14 @@ const countCardsInDeck = (deck: DeckType) => {
 
 const generateDeckList = (deck: DeckType) => {
   return countCardsInDeck(deck).map(card => {
-    return card.numberOfCards + " " + validateCardCode(card.code).name + " (" + card.code + ")"
+    return card.numberOfCards + " " + getCardByCode(card.code).name + " (" + card.code + ")"
   }) 
 }
 
 export {
   sortCardArrayByCode,
   filterCardListByPropertyList,
-  validateCardCode,
+  getCardByCode,
   countCardsInDeck,
   generateDeckList
 };

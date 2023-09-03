@@ -14,6 +14,7 @@ const Header = () => {
       </div>
       <div className="navbar-wrapper">
         <button className="mydecks navbar-button" onClick={() => navigate("/mydecks")}>My Decks</button>
+        <button className="mycollection navbar-button" onClick={() => navigate("/mycollection")}>My Collection</button>
       </div>
     </header>
   );

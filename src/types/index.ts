@@ -33,4 +33,10 @@ type DeckCardsType = {
   numberOfCards: number;
 };
 
-export type { CardType, SearchResultType, DeckType, DeckCardsType };
+type CardsInMyCollectionType = {
+  card: string;
+  have: number;
+  want: number;
+}
+
+export type { CardType, SearchResultType, DeckType, DeckCardsType, CardsInMyCollectionType };
