@@ -40,13 +40,24 @@ const MyCollection = () => {
     field: keyof CardsInMyCollectionType,
     cardCode: string
   ) => {
-    const newValue = event.target.value === "" ? 0 : event.target.value;
+    const newValue = event.target.value < 0 ? 0 : event.target.value;
     setMycards(updateQuantity(myCards!, cardCode, newValue, field));
+  };
+
+  const totalCardsIWantAndIDontHave = () => {
+    var count = 0;
+    myCards?.forEach((card) => {
+      if (card.want > card.have) count += card.want - card.have;
+    });
+    return count;
   };
 
   return (
     <>
       <Header />
+      <div>
+        Number of cards I want and I don't have: {totalCardsIWantAndIDontHave()}
+      </div>
       <div className="filters-wrapper">
         <div className="remove-alternative-wrapper">
           <input
@@ -80,13 +91,15 @@ const MyCollection = () => {
         </div>
       </div>
       <table className="my-collection-table">
-        <tr>
-          <th>Image</th>
-          <th>Name</th>
-          <th>Code</th>
-          <th>Have</th>
-          <th>Want</th>
-        </tr>
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Code</th>
+            <th>Have</th>
+            <th>Want</th>
+          </tr>
+        </thead>
         {myCards?.map((card) => {
           return (card.want > card.have || showAllCards) &&
             !(card.card.includes("_") && removeAlters) &&

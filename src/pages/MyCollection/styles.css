@@ -1,8 +1,12 @@
-.my-collection-table td, .my-collection-table th{
+.my-collection-table td,
+.my-collection-table th {
     padding: 2px 5px;
 }
 
-.my-collection-table, .my-collection-table td, .my-collection-table tr, .my-collection-table th{
+.my-collection-table,
+.my-collection-table td,
+.my-collection-table tr,
+.my-collection-table th {
     border-bottom: 1px solid black;
     border-collapse: collapse;
     text-align: center;
@@ -24,4 +28,15 @@
 
 .filters-wrapper label {
     margin-left: 2px;
+}
+
+.my-collection-table thead {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.my-collection-table thead th {
+    padding-top: 20px;
+    font-size: 20px;
 }
