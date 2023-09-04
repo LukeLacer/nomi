@@ -9,6 +9,8 @@ import { getCardByCode } from "../../utils";
 const MyCollection = () => {
   const [myCards, setMycards] = useState<Array<CardsInMyCollectionType>>();
   const [showAllCards, setShowAllCards] = useState<boolean>(true);
+  const [removeAlters, setRemoveAlters] = useState<boolean>(false);
+  const [removePromotionals, setRemovePromotionals] = useState<boolean>(false);
 
   useEffect(() => {
     if (localStorage.getItem("my_collection") === null)
@@ -38,21 +40,44 @@ const MyCollection = () => {
     field: keyof CardsInMyCollectionType,
     cardCode: string
   ) => {
-    setMycards(updateQuantity(myCards!, cardCode, event.target.value, field));
+    const newValue = event.target.value === "" ? 0 : event.target.value;
+    setMycards(updateQuantity(myCards!, cardCode, newValue, field));
   };
 
   return (
     <>
       <Header />
       <div className="filters-wrapper">
-      <input
-        type="checkbox"
-        name="showJustCardsIWant"
-        id="showJustCardsIWant"
-        checked={!showAllCards}
-        onChange={() => setShowAllCards(!showAllCards)}
-      />
-      <label htmlFor="showJustCardsIWant">Show just cards I want</label>
+        <div className="remove-alternative-wrapper">
+          <input
+            type="checkbox"
+            name="removeAlters"
+            id="removeAlters"
+            checked={removeAlters}
+            onChange={() => setRemoveAlters(!removeAlters)}
+          />
+          <label htmlFor="removeAlters">Remove alternative</label>
+          <div className="remove-promotional-wrapper">
+            <input
+              type="checkbox"
+              name="removePromotionals"
+              id="removePromotionals"
+              checked={removePromotionals}
+              onChange={() => setRemovePromotionals(!removePromotionals)}
+            />
+            <label htmlFor="removePromotionals">Remove promotional</label>
+          </div>
+        </div>
+        <div className="show-all-cards-wrapper">
+          <input
+            type="checkbox"
+            name="showJustCardsIWant"
+            id="showJustCardsIWant"
+            checked={!showAllCards}
+            onChange={() => setShowAllCards(!showAllCards)}
+          />
+          <label htmlFor="showJustCardsIWant">Show just cards I want</label>
+        </div>
       </div>
       <table className="my-collection-table">
         <tr>
@@ -63,7 +88,9 @@ const MyCollection = () => {
           <th>Want</th>
         </tr>
         {myCards?.map((card) => {
-          return card.want > card.have || showAllCards ? (
+          return (card.want > card.have || showAllCards) &&
+            !(card.card.includes("_") && removeAlters) &&
+            !(card.card[0] === "P" && removePromotionals) ? (
             <tr>
               <td>
                 <CardImage code={card.card} height="100px" />
