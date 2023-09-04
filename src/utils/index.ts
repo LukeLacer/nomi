@@ -1,6 +1,6 @@
 import { CardType, DeckCardsType, DeckType } from "../types";
 
-import { getCardByCode } from "./validade";
+import { getCardByCode, getNumberOfCardsInCollectionByCode, getPercentageInCollection } from "./get";
 
 const sortCardArrayByCode = (array: CardType[]) => {
   return array.sort((a, b) => (a.code > b.code ? 1 : -1));
@@ -65,5 +65,7 @@ export {
   filterCardListByPropertyList,
   getCardByCode,
   countCardsInDeck,
-  generateDeckList
+  generateDeckList,
+  getNumberOfCardsInCollectionByCode,
+  getPercentageInCollection
 };
