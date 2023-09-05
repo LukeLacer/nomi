@@ -28,8 +28,19 @@ const getPercentageInCollection = (deck: DeckType) => {
   return (quantityOfCardsInCollection / 50) * 100;
 };
 
+const getHowManyCardsYouHaveInCollection = (cardCode: string) => {
+  const collection = JSON.parse(
+    localStorage.getItem("my_collection")!
+  ) as Array<CardsInMyCollectionType>;
+  const cardInCollection = collection.find(
+    (collectionCard) => collectionCard.card === cardCode
+  );
+  return cardInCollection?.have;
+};
+
 export {
   getCardByCode,
   getNumberOfCardsInCollectionByCode,
   getPercentageInCollection,
+  getHowManyCardsYouHaveInCollection,
 };

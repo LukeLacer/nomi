@@ -4,7 +4,7 @@ import "./styles.css";
 import { DeckType } from "../../types";
 import { useLocation } from "react-router-dom";
 import { CardImage, Header } from "../../components";
-import { countCardsInDeck, generateDeckList } from "../../utils";
+import { countCardsInDeck, getCardByCode, getHowManyCardsYouHaveInCollection } from "../../utils";
 
 const OpenDeck = () => {
   const [deck, setDeck] = useState<DeckType>();
@@ -26,7 +26,9 @@ const OpenDeck = () => {
       <Header />
       <div>
         <div className="deck-opened-top-info">
-          <CardImage code={deck?.leader} className="opened-deck-leader-image" />
+          <div>
+          <CardImage code={deck?.leader} className="opened-deck-leader-image" style={{ height: '400px', width: 'auto' }} />
+          </div>
           <div>
             <div className="deck-opened-wrapper">
               <h2>{deck?.name}</h2>
@@ -37,7 +39,29 @@ const OpenDeck = () => {
             </div>
           </div>
           <div>
-            {deck ? generateDeckList(deck).map(card => <p>{card}</p>) : null}
+            <table className="decklist-table">
+              <thead>
+                <tr>
+                  <th>Quantity</th>
+                  <th>Name</th>
+                  <th>Code</th>
+                  <th>Quantity in Collection</th>
+                </tr>
+              </thead>
+                {deck
+                  ? countCardsInDeck(deck).map((card) => {
+                      const numberOfCardsInCollection = getHowManyCardsYouHaveInCollection(card.code)
+                      return (
+                        <tr style={{ backgroundColor: numberOfCardsInCollection! < card.numberOfCards ? '#ffd0d0' : 'transparent' }}>
+                          <td>{card.numberOfCards}</td>
+                          <td>{getCardByCode(card.code).name}</td>
+                          <td>{card.code}</td>
+                          <td>{numberOfCardsInCollection}</td>
+                        </tr>
+                      );
+                    })
+                  : null}
+            </table>
           </div>
         </div>
         <div className="opened-deck-list">

@@ -1,6 +1,11 @@
 import { CardType, DeckCardsType, DeckType } from "../types";
 
-import { getCardByCode, getNumberOfCardsInCollectionByCode, getPercentageInCollection } from "./get";
+import {
+  getCardByCode,
+  getNumberOfCardsInCollectionByCode,
+  getPercentageInCollection,
+  getHowManyCardsYouHaveInCollection,
+} from "./get";
 
 const sortCardArrayByCode = (array: CardType[]) => {
   return array.sort((a, b) => (a.code > b.code ? 1 : -1));
@@ -42,30 +47,27 @@ const filterCardListByPropertyList = (
 };
 
 const countCardsInDeck = (deck: DeckType) => {
-  var cardsOfDeckToReturn = deck.cards.reduce((a: Array<DeckCardsType>, b: string) => {
-    var i = a.findIndex((x) => x.code === b);
-    return (
-      i === -1
-        ? a.push({ code: b, numberOfCards: 1 })
-        : a[i].numberOfCards++,
-      a
-    );
-  }, []);
-  return cardsOfDeckToReturn.sort((a, b) => (a.numberOfCards < b.numberOfCards) ? 1 : -1);
+  var cardsOfDeckToReturn = deck.cards.reduce(
+    (a: Array<DeckCardsType>, b: string) => {
+      var i = a.findIndex((x) => x.code === b);
+      return (
+        i === -1 ? a.push({ code: b, numberOfCards: 1 }) : a[i].numberOfCards++,
+        a
+      );
+    },
+    []
+  );
+  return cardsOfDeckToReturn.sort((a, b) =>
+    a.numberOfCards < b.numberOfCards ? 1 : -1
+  );
 };
-
-const generateDeckList = (deck: DeckType) => {
-  return countCardsInDeck(deck).map(card => {
-    return card.numberOfCards + " " + getCardByCode(card.code).name + " (" + card.code + ")"
-  }) 
-}
 
 export {
   sortCardArrayByCode,
   filterCardListByPropertyList,
   getCardByCode,
   countCardsInDeck,
-  generateDeckList,
   getNumberOfCardsInCollectionByCode,
-  getPercentageInCollection
+  getPercentageInCollection,
+  getHowManyCardsYouHaveInCollection,
 };
