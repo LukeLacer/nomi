@@ -37,11 +37,16 @@
   width: 100%;
   border: 1px solid black;
   text-align: center;
+  position: relative;
 }
 
 .percentage-bar-wrapper div {
-  position: relative;
+  height: 1rem;
   width: 100%;
-  height: 100%;
-  float: left;
+}
+
+.percentage-bar-wrapper span {
+  position: absolute;
+  top: 0;
+  font-weight: 700;
 }
