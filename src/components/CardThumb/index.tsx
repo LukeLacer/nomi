@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css"
 import { CardType } from "../../types";
 import { CardImage } from "..";
+import { getHowManyCardsYouHaveInCollection } from "../../utils";
 
 type CardThumbProps = {
     card: CardType
@@ -36,6 +37,9 @@ const CardThumb = (props: CardThumbProps) => {
                 <div className="card-types-wrapper">
                     <span className="card-info-label">TYPES</span>
                     <div className="card-types-data-wrapper"> {types.map(type => <span>{type}</span>)} </div>
+                </div>
+                <div className="quantity-in-collection">
+                    <span>Quantity in collection</span><span>{getHowManyCardsYouHaveInCollection(code)}</span>
                 </div>
                 <div className="card-effects-wrapper">
                     <span className="card-info-label">EFFECTS</span>

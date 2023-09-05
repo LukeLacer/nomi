@@ -97,3 +97,13 @@
   margin-top: 5px;
   text-align: justify;
 }
+
+.quantity-in-collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a7a7a7;
+  border-radius: 6px;
+  margin: 10px 0;
+  padding: 10px 0;
+}
