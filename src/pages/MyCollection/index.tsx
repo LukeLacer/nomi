@@ -4,8 +4,17 @@ import "./styles.css";
 import { CardImage, Header } from "../../components";
 import { CardsInMyCollectionType } from "../../types";
 import defaultcollection from "../../data/defaultcollection.json";
-import { getCardByCode, sortCardinCollectionArrayByCard } from "../../utils";
+import {
+  getAllEditions,
+  getCardByCode,
+  sortCardinCollectionArrayByCard,
+} from "../../utils";
 import allcards from "../../data/allcards.json";
+
+type CardCounterType = {
+  edition: string;
+  quantity: number;
+};
 
 const MyCollection = () => {
   const [myCards, setMycards] = useState<Array<CardsInMyCollectionType>>();
@@ -14,14 +23,24 @@ const MyCollection = () => {
   const [removePromotionals, setRemovePromotionals] = useState<boolean>(false);
 
   useEffect(() => {
-    if (localStorage.getItem("my_collection") === null) setMycards(defaultcollection);
+    if (localStorage.getItem("my_collection") === null)
+      setMycards(defaultcollection);
     else {
-      const newerCardList: Array<CardsInMyCollectionType> = JSON.parse(localStorage.getItem("my_collection")!)
-      if (JSON.parse(localStorage.getItem("my_collection")!).length < allcards.length)
-        allcards.forEach(card => {
-          if (!newerCardList.some(cardInMyCollection => cardInMyCollection.card === card.code))
-            newerCardList.push({card: card.code, have: 0, want: 0})
-        })
+      const newerCardList: Array<CardsInMyCollectionType> = JSON.parse(
+        localStorage.getItem("my_collection")!
+      );
+      if (
+        JSON.parse(localStorage.getItem("my_collection")!).length <
+        allcards.length
+      )
+        allcards.forEach((card) => {
+          if (
+            !newerCardList.some(
+              (cardInMyCollection) => cardInMyCollection.card === card.code
+            )
+          )
+            newerCardList.push({ card: card.code, have: 0, want: 0 });
+        });
       setMycards(sortCardinCollectionArrayByCard(newerCardList));
     }
   }, []);
@@ -52,19 +71,48 @@ const MyCollection = () => {
     setMycards(updateQuantity(myCards!, cardCode, newValue, field));
   };
 
-  const totalCardsIWantAndIDontHave = () => {
-    var count = 0;
-    myCards?.forEach((card) => {
-      if (card.want > card.have) count += card.want - card.have;
+  const cardsIWantAndIDontHave = (): CardCounterType[] => {
+    const returnCounters: CardCounterType[] = [
+      { edition: "TOTAL", quantity: 0 },
+    ];
+    const editions = getAllEditions();
+    editions.forEach((edition) => {
+      myCards?.forEach((card) => {
+        if (card.want > card.have && card.card.split("-")[0] === edition) {
+          if (returnCounters.some((counter) => counter.edition === edition))
+            returnCounters.map((counter) => {
+              if (counter.edition === edition || counter.edition === "TOTAL")
+                counter.quantity += card.want - card.have;
+              return counter;
+            });
+          else {
+            returnCounters.push({
+              edition: edition,
+              quantity: card.want - card.have,
+            });
+            returnCounters.map((counter) => {
+              if (counter.edition === "TOTAL")
+                counter.quantity += card.want - card.have;
+              return counter;
+            });
+          }
+        }
+      });
     });
-    return count;
+    return returnCounters.sort((a, b) => (a.edition < b.edition || a.edition === "TOTAL" ? -1 : 1));;
   };
 
   return (
     <>
       <Header />
-      <div>
-        Number of cards I want and I don't have: {totalCardsIWantAndIDontHave()}
+      <div className="counters-wrapper">
+        Number of cards I want and I don't have
+        {cardsIWantAndIDontHave().map((counter) => (
+          <div>
+            <span>{counter.edition + ": "}</span>
+            <span>{counter.quantity}</span>
+          </div>
+        ))}
       </div>
       <div className="filters-wrapper">
         <div className="remove-alternative-wrapper">

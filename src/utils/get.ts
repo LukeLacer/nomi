@@ -38,9 +38,16 @@ const getHowManyCardsYouHaveInCollection = (cardCode: string) => {
   return cardInCollection?.have;
 };
 
+const getAllEditions = (): string[] => {
+  const editions: string[] = []
+  allcards.forEach(card => {if (!editions.includes(card.code.split("-")[0])) editions.push(card.code.split("-")[0])})
+  return editions
+}
+
 export {
   getCardByCode,
   getNumberOfCardsInCollectionByCode,
   getPercentageInCollection,
   getHowManyCardsYouHaveInCollection,
+  getAllEditions
 };

@@ -1,10 +1,16 @@
-import { CardType, CardsInMyCollectionType, DeckCardsType, DeckType } from "../types";
+import {
+  CardType,
+  CardsInMyCollectionType,
+  DeckCardsType,
+  DeckType,
+} from "../types";
 
 import {
   getCardByCode,
   getNumberOfCardsInCollectionByCode,
   getPercentageInCollection,
   getHowManyCardsYouHaveInCollection,
+  getAllEditions
 } from "./get";
 
 const sortCardArrayByCode = (array: CardType[]) => {
@@ -74,5 +80,6 @@ export {
   getNumberOfCardsInCollectionByCode,
   getPercentageInCollection,
   getHowManyCardsYouHaveInCollection,
-  sortCardinCollectionArrayByCard
+  sortCardinCollectionArrayByCard,
+  getAllEditions,
 };
