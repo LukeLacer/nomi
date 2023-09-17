@@ -4,7 +4,8 @@ import "./styles.css";
 import { CardImage, Header } from "../../components";
 import { CardsInMyCollectionType } from "../../types";
 import defaultcollection from "../../data/defaultcollection.json";
-import { getCardByCode } from "../../utils";
+import { getCardByCode, sortCardinCollectionArrayByCard } from "../../utils";
+import allcards from "../../data/allcards.json";
 
 const MyCollection = () => {
   const [myCards, setMycards] = useState<Array<CardsInMyCollectionType>>();
@@ -13,9 +14,16 @@ const MyCollection = () => {
   const [removePromotionals, setRemovePromotionals] = useState<boolean>(false);
 
   useEffect(() => {
-    if (localStorage.getItem("my_collection") === null)
-      setMycards(defaultcollection);
-    else setMycards(JSON.parse(localStorage.getItem("my_collection")!));
+    if (localStorage.getItem("my_collection") === null) setMycards(defaultcollection);
+    else {
+      const newerCardList: Array<CardsInMyCollectionType> = JSON.parse(localStorage.getItem("my_collection")!)
+      if (JSON.parse(localStorage.getItem("my_collection")!).length < allcards.length)
+        allcards.forEach(card => {
+          if (!newerCardList.some(cardInMyCollection => cardInMyCollection.card === card.code))
+            newerCardList.push({card: card.code, have: 0, want: 0})
+        })
+      setMycards(sortCardinCollectionArrayByCard(newerCardList));
+    }
   }, []);
 
   useEffect(() => {

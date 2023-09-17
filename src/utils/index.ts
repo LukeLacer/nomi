@@ -1,4 +1,4 @@
-import { CardType, DeckCardsType, DeckType } from "../types";
+import { CardType, CardsInMyCollectionType, DeckCardsType, DeckType } from "../types";
 
 import {
   getCardByCode,
@@ -9,6 +9,10 @@ import {
 
 const sortCardArrayByCode = (array: CardType[]) => {
   return array.sort((a, b) => (a.code > b.code ? 1 : -1));
+};
+
+const sortCardinCollectionArrayByCard = (array: CardsInMyCollectionType[]) => {
+  return array.sort((a, b) => (a.card > b.card ? 1 : -1));
 };
 
 const filterCardListByPropertyList = (
@@ -70,4 +74,5 @@ export {
   getNumberOfCardsInCollectionByCode,
   getPercentageInCollection,
   getHowManyCardsYouHaveInCollection,
+  sortCardinCollectionArrayByCard
 };
