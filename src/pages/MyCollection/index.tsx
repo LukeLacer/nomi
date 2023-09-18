@@ -10,6 +10,7 @@ import {
   sortCardinCollectionArrayByCard,
 } from "../../utils";
 import allcards from "../../data/allcards.json";
+import { getLocalData, setLocalData } from "../../storage";
 
 type CardCounterType = {
   edition: string;
@@ -30,14 +31,15 @@ const MyCollection = () => {
   const [showNeed, setShowNeed] = useState(true);
 
   useEffect(() => {
-    if (localStorage.getItem("my_collection") === null)
+    const dataFromCollection = getLocalData("my_collection");
+    if (dataFromCollection === undefined || dataFromCollection === '')
       setMycards(defaultcollection);
     else {
       const newerCardList: Array<CardsInMyCollectionType> = JSON.parse(
-        localStorage.getItem("my_collection")!
+        dataFromCollection!
       );
       if (
-        JSON.parse(localStorage.getItem("my_collection")!).length <
+        JSON.parse(dataFromCollection!).length <
         allcards.length
       )
         allcards.forEach((card) => {
@@ -53,7 +55,8 @@ const MyCollection = () => {
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("my_collection", JSON.stringify(myCards));
+    if (myCards !== undefined)
+      setLocalData("my_collection", JSON.stringify(myCards));
   }, [myCards]);
 
   const updateQuantity = (

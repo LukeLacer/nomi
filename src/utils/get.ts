@@ -1,5 +1,6 @@
 import { countCardsInDeck } from ".";
 import allcards from "../data/allcards.json";
+import { getLocalData } from "../storage";
 import { CardType, CardsInMyCollectionType, DeckType } from "../types";
 
 const getCardByCode = (cardCode: string): CardType => {
@@ -7,14 +8,14 @@ const getCardByCode = (cardCode: string): CardType => {
 };
 
 const getNumberOfCardsInCollectionByCode = (cardCode: string): number => {
-  return JSON.parse(localStorage.getItem("my_collection")!).find(
+  return JSON.parse(getLocalData("my_collection")!).find(
     (card: CardsInMyCollectionType) => card.card === cardCode
   );
 };
 
 const getPercentageInCollection = (deck: DeckType) => {
   const collection = JSON.parse(
-    localStorage.getItem("my_collection")!
+    getLocalData("my_collection")!
   ) as Array<CardsInMyCollectionType>;
   const cardInDeck = countCardsInDeck(deck);
   var quantityOfCardsInCollection = 0;
@@ -30,7 +31,7 @@ const getPercentageInCollection = (deck: DeckType) => {
 
 const getHowManyCardsYouHaveInCollection = (cardCode: string) => {
   const collection = JSON.parse(
-    localStorage.getItem("my_collection")!
+    getLocalData("my_collection")!
   ) as Array<CardsInMyCollectionType>;
   const cardInCollection = collection.find(
     (collectionCard) => collectionCard.card === cardCode

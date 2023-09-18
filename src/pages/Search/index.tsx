@@ -6,6 +6,7 @@ import { Header, HowTo, Modal } from "../../components";
 import { strings } from "../../helpers";
 import { find } from "../../searchEngine";
 import { useNavigate } from "react-router-dom";
+import { getLocalData, setLocalData } from "../../storage";
 
 const Search = () => {
   const [localStorageWarningModal, setLocalStorageWarningModal] =
@@ -15,7 +16,7 @@ const Search = () => {
   const [removePromotionals, setRemovePromotionals] = useState<boolean>(false);
 
   useEffect(() => {
-    const rememberMe = localStorage.getItem("rememberMe");
+    const rememberMe = getLocalData("rememberMe");
 
     if (rememberMe === "false") {
       setLocalStorageWarningModal(false);
@@ -33,7 +34,7 @@ const Search = () => {
   };
 
   const neverRememberMeHandler = () => {
-    localStorage.setItem("rememberMe", "false");
+    setLocalData("rememberMe", "false");
     setLocalStorageWarningModal(false);
   };
 

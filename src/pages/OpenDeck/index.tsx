@@ -5,6 +5,7 @@ import { DeckType } from "../../types";
 import { useLocation } from "react-router-dom";
 import { CardImage, Header } from "../../components";
 import { countCardsInDeck, getCardByCode, getHowManyCardsYouHaveInCollection } from "../../utils";
+import { getLocalData } from "../../storage";
 
 const OpenDeck = () => {
   const [deck, setDeck] = useState<DeckType>();
@@ -15,7 +16,7 @@ const OpenDeck = () => {
 
   useEffect(() => {
     setDeck(
-      JSON.parse(localStorage.getItem("my_local_decks")!).find(
+      JSON.parse(getLocalData("my_local_decks")!).find(
         (deck: DeckType) => deck.name === stateData.deckName
       )
     );

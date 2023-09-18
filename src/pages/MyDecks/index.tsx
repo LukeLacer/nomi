@@ -4,6 +4,7 @@ import "./styles.css";
 import { DeckType } from "../../types";
 import { DeckThumb, Header, Modal } from "../../components";
 import { getCardByCode } from "../../utils";
+import { getLocalData, setLocalData } from "../../storage";
 
 const MyDecks = () => {
   const [decks, setDecks] = useState<Array<DeckType>>([]);
@@ -15,11 +16,12 @@ const MyDecks = () => {
   const [newDeckCardsValue, setNewDeckCardsValue] = useState("");
 
   useEffect(() => {
-    setDecks(JSON.parse(localStorage.getItem("my_local_decks")!));
+    if (getLocalData("my_local_decks") !== undefined)
+      setDecks(JSON.parse(getLocalData("my_local_decks")!));
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("my_local_decks", JSON.stringify(decks));
+    setLocalData("my_local_decks", JSON.stringify(decks));
   }, [decks]);
 
   const createDeckHandler = () => {
@@ -67,7 +69,7 @@ const MyDecks = () => {
     <>
       <Header />
       <div className="decks-list-wrapper">
-        {localStorage.getItem("my_local_decks") === null ? (
+        {getLocalData("my_local_decks") === undefined ? (
           <p className="no-decks-founded-message">NO DECKS FOUNDED!</p>
         ) : (
           <>
