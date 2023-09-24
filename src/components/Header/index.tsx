@@ -1,9 +1,14 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import "./styles.css";
 import { strings } from "../../helpers";
 import { useNavigate } from "react-router-dom";
 
-const Header = () => {
+type HeaderPropType = {
+  navBarButtons?: ReactElement[]
+}
+
+const Header = (props: HeaderPropType) => {
+  const { navBarButtons } = props
   const navigate = useNavigate();
 
   return (
@@ -13,8 +18,9 @@ const Header = () => {
         <span>{strings.name}</span>
       </div>
       <div className="navbar-wrapper">
-        <button className="mydecks navbar-button" onClick={() => navigate("/mydecks")}>My Decks</button>
-        <button className="mycollection navbar-button" onClick={() => navigate("/mycollection")}>My Collection</button>
+      {navBarButtons ? navBarButtons.map(button => <>{button}</>) : null} 
+        <button className="mydecks" onClick={() => navigate("/mydecks")}>My Decks</button>
+        <button className="mycollection" onClick={() => navigate("/mycollection")}>My Collection</button>
       </div>
     </header>
   );

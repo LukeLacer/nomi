@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { ReactElement, useEffect, useState } from "react";
 
 import "./styles.css";
 import { DeckType } from "../../types";
@@ -62,29 +62,42 @@ const MyDecks = () => {
     } else if (deckNameAlreadyExists && leaderIsValid) {
       alert("The deck name already exists!");
     }
-    setOpenCreateDeckModal(false)
+    setOpenCreateDeckModal(false);
   };
 
   const deleteDeck = (deckName: string) => {
-    setDecks(decks.filter(deck => deck.name !== deckName))
-  }
+    setDecks(decks.filter((deck) => deck.name !== deckName));
+  };
+
+  const navBarSpecificButtons = (): ReactElement[] => {
+    const createDeckButton = <>
+    <button
+      onClick={() => setOpenCreateDeckModal(true)}
+    >
+      Create Deck
+    </button>
+  </>
+    return [
+      createDeckButton
+    ];
+  };
 
   return (
     <>
-      <Header />
+      <Header navBarButtons={navBarSpecificButtons()} />
       <div className="decks-list-wrapper">
         {getLocalData("my_local_decks") === undefined ? (
           <p className="no-decks-founded-message">NO DECKS FOUNDED!</p>
         ) : (
           <>
-            <div
-              className="create-deck-thumb"
-              onClick={() => setOpenCreateDeckModal(true)}
-            >
-              create deck
-            </div>
             {decks?.map((deck) => {
-              return <DeckThumb deck={deck} key={deck.name} deleteDeck={deleteDeck} />;
+              return (
+                <DeckThumb
+                  deck={deck}
+                  key={deck.name}
+                  deleteDeck={deleteDeck}
+                />
+              );
             })}
           </>
         )}
