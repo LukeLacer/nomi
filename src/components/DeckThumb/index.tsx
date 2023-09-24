@@ -7,10 +7,11 @@ import { getPercentageInCollection } from "../../utils";
 
 type DeckThumbProps = {
     deck: DeckType;
+    deleteDeck: Function;
 }
 
 const DeckThumb = (props: DeckThumbProps) => {
-    const { deck } = props
+    const { deck, deleteDeck } = props
 
     const [percentageInCollection, setPercentageInCollection] = useState(0)
 
@@ -27,6 +28,10 @@ const DeckThumb = (props: DeckThumbProps) => {
           });
     }
 
+    const deleteDeckHandler = () => {
+        if (window.confirm("Do you have sure? Delete a deck is a irreversible action")) deleteDeck(deck.name)
+    }
+
     const getBarBackgroundColor = (percentage: number) => {
         return percentage <= 25
             ? '#ff0000'
@@ -38,13 +43,19 @@ const DeckThumb = (props: DeckThumbProps) => {
     }
 
     return (
-        <div className="deck-wrapper" onClick={() => deckClickerHandler(deck.name)}>
+        <div className="deck-wrapper">
+            <div className="deck-buttons-wrapper">
+                <button><img src="./system_icons/wrench-solid.svg" alt="Edit deck icon" /></button>
+                <button onClick={() => deleteDeckHandler()}><img src="./system_icons/trash-solid.svg" alt="Delete deck icon" /></button>
+            </div>
+            <div className="deck-data-wrapper" onClick={() => deckClickerHandler(deck.name)}>
             <CardImage code={deck.leader} className='deck-leader-image' />
             <h2 className="deck-name">{deck.name}</h2>
             <p className="deck-description">{deck.description}</p>
             <div className="percentage-bar-wrapper">
             <div style={{ width: percentageInCollection + '%', backgroundColor: getBarBackgroundColor(percentageInCollection) }}></div>
                 <span>{percentageInCollection}%</span>
+            </div>
             </div>
         </div>
     )

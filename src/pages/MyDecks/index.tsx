@@ -65,6 +65,10 @@ const MyDecks = () => {
     setOpenCreateDeckModal(false)
   };
 
+  const deleteDeck = (deckName: string) => {
+    setDecks(decks.filter(deck => deck.name !== deckName))
+  }
+
   return (
     <>
       <Header />
@@ -80,7 +84,7 @@ const MyDecks = () => {
               create deck
             </div>
             {decks?.map((deck) => {
-              return <DeckThumb deck={deck} key={deck.name} />;
+              return <DeckThumb deck={deck} key={deck.name} deleteDeck={deleteDeck} />;
             })}
           </>
         )}

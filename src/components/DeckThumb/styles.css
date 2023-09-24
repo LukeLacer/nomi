@@ -3,12 +3,15 @@
   padding: 10px;
   border: 1px solid black;
   width: 20%;
+}
+
+.deck-data-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.deck-wrapper:hover {
+.deck-data-wrapper:hover {
   cursor: pointer;
   background-color: beige;
 }
@@ -49,4 +52,19 @@
   position: absolute;
   top: 0;
   font-weight: 700;
+}
+
+.deck-buttons-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.deck-buttons-wrapper button{
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: none;
+  margin: 5px;
 }
