@@ -56,30 +56,41 @@ const filterCardListByPropertyList = (
   return arrayToReturn;
 };
 
-const countCardsInDeck = (deck: DeckType) => {
-  var cardsOfDeckToReturn = deck.cards.reduce(
-    (a: Array<DeckCardsType>, b: string) => {
-      var i = a.findIndex((x) => x.code === b);
-      return (
-        i === -1 ? a.push({ code: b, numberOfCards: 1 }) : a[i].numberOfCards++,
-        a
-      );
-    },
-    []
-  );
-  return cardsOfDeckToReturn.sort((a, b) =>
+const sortCardsInDeck = (deck: DeckType) => {
+  return deck.cards.sort((a, b) =>
     a.numberOfCards < b.numberOfCards ? 1 : -1
   );
 };
+
+const convertStringToDecklist = (deckToConvert: string): DeckCardsType[] => {
+  const cardsConverted = deckToConvert.split('\n').map(cardString => {
+    return {
+      code: cardString.split(' ')[1],
+      numberOfCards: parseInt(cardString.split(' ')[0])
+    }
+  })
+  return cardsConverted
+}
+
+const convertDecklistToString = (deckToConvert: DeckCardsType[]): string => {
+  var deckString = ''
+  deckToConvert.forEach((card, index) => {
+    if (index !== 0) deckString = deckString + '\n'
+    deckString = deckString + card.numberOfCards + ' ' + card.code
+  })
+  return deckString
+}
 
 export {
   sortCardArrayByCode,
   filterCardListByPropertyList,
   getCardByCode,
-  countCardsInDeck,
+  sortCardsInDeck,
   getNumberOfCardsInCollectionByCode,
   getPercentageInCollection,
   getHowManyCardsYouHaveInCollection,
   sortCardinCollectionArrayByCard,
   getAllEditions,
+  convertStringToDecklist,
+  convertDecklistToString
 };

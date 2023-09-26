@@ -23,9 +23,11 @@ type SearchResultType = {
 
 type DeckType = {
   name: string;
+  version: number;
   description: string;
   leader: string;
-  cards: Array<string>;
+  cards: Array<DeckCardsType>;
+  oldVersions: Array<DeckType>;
 };
 
 type DeckCardsType = {

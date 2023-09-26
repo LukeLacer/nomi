@@ -4,7 +4,7 @@ import "./styles.css";
 import { DeckType } from "../../types";
 import { useLocation } from "react-router-dom";
 import { CardImage, Header } from "../../components";
-import { countCardsInDeck, getCardByCode, getHowManyCardsYouHaveInCollection } from "../../utils";
+import { sortCardsInDeck, getCardByCode, getHowManyCardsYouHaveInCollection } from "../../utils";
 import { getLocalData } from "../../storage";
 
 const OpenDeck = () => {
@@ -50,7 +50,7 @@ const OpenDeck = () => {
                 </tr>
               </thead>
                 {deck
-                  ? countCardsInDeck(deck).map((card) => {
+                  ? sortCardsInDeck(deck).map((card) => {
                       const numberOfCardsInCollection = getHowManyCardsYouHaveInCollection(card.code)
                       return (
                         <tr style={{ backgroundColor: numberOfCardsInCollection! < card.numberOfCards ? '#ffd0d0' : 'transparent' }}>
@@ -67,7 +67,7 @@ const OpenDeck = () => {
         </div>
         <div className="opened-deck-list">
           {deck
-            ? countCardsInDeck(deck).map((card) => {
+            ? sortCardsInDeck(deck).map((card) => {
                 count++;
                 return (
                   <div className="cards-in-deck-wrapper">

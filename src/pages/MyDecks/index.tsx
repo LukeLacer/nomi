@@ -3,7 +3,7 @@ import React, { ReactElement, useEffect, useState } from "react";
 import "./styles.css";
 import { DeckType } from "../../types";
 import { DeckThumb, Header, Modal } from "../../components";
-import { getCardByCode } from "../../utils";
+import { convertStringToDecklist, getCardByCode } from "../../utils";
 import { getLocalData, setLocalData } from "../../storage";
 
 const MyDecks = () => {
@@ -35,7 +35,7 @@ const MyDecks = () => {
       getCardByCode(newDeckLeaderValue).category === "LEADER";
 
     if (!deckNameAlreadyExists && leaderIsValid) {
-      const deckList = JSON.parse(newDeckCardsValue);
+      const deckList = convertStringToDecklist(newDeckCardsValue);
       if (!(decks?.length > 0))
         setDecks([
           {
@@ -43,6 +43,8 @@ const MyDecks = () => {
             description: newDeckDescriptionValue,
             leader: newDeckLeaderValue,
             cards: deckList,
+            version: 1,
+            oldVersions: []
           },
         ]);
       else
@@ -53,6 +55,8 @@ const MyDecks = () => {
             description: newDeckDescriptionValue,
             leader: newDeckLeaderValue,
             cards: deckList,
+            version: 1,
+            oldVersions: []
           },
         ]);
     } else if (deckNameAlreadyExists && !leaderIsValid) {

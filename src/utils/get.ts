@@ -1,4 +1,4 @@
-import { countCardsInDeck } from ".";
+import { sortCardsInDeck } from ".";
 import allcards from "../data/allcards.json";
 import { getLocalData } from "../storage";
 import { CardType, CardsInMyCollectionType, DeckType } from "../types";
@@ -17,7 +17,7 @@ const getPercentageInCollection = (deck: DeckType) => {
   const collection = JSON.parse(
     getLocalData("my_collection")!
   ) as Array<CardsInMyCollectionType>;
-  const cardInDeck = countCardsInDeck(deck);
+  const cardInDeck = sortCardsInDeck(deck);
   var quantityOfCardsInCollection = 0;
   cardInDeck.forEach((card) => {
     if (
