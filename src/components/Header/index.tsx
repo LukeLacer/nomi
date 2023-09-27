@@ -18,7 +18,7 @@ const Header = (props: HeaderPropType) => {
         <span>{strings.name}</span>
       </div>
       <div className="navbar-wrapper">
-      {navBarButtons ? navBarButtons.map(button => <>{button}</>) : null} 
+      {navBarButtons ? navBarButtons.map((button, index) => <div key={index}>{button}</div>) : null} 
         <button className="mydecks" onClick={() => navigate("/mydecks")}>My Decks</button>
         <button className="mycollection" onClick={() => navigate("/mycollection")}>My Collection</button>
       </div>

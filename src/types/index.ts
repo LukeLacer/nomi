@@ -27,7 +27,7 @@ type DeckType = {
   description: string;
   leader: string;
   cards: Array<DeckCardsType>;
-  oldVersions: Array<DeckType>;
+  oldVersions?: Array<DeckType>;
 };
 
 type DeckCardsType = {
@@ -41,4 +41,10 @@ type CardsInMyCollectionType = {
   want: number;
 }
 
-export type { CardType, SearchResultType, DeckType, DeckCardsType, CardsInMyCollectionType };
+type DeckChanges = {
+  cardCode: string;
+  numberOfCards: number;
+  changeType: "in" | "out";
+};
+
+export type { CardType, SearchResultType, DeckType, DeckCardsType, CardsInMyCollectionType, DeckChanges };

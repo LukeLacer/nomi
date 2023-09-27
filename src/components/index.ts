@@ -5,6 +5,7 @@ import HowTo from './HowTo'
 import Tooltip from './Tooltip'
 import DeckThumb from './DeckThumb'
 import CardImage from './CardImage'
+import EditDeckModal from './EditDeckModal'
 
 export {
     Header,
@@ -13,5 +14,6 @@ export {
     HowTo,
     Tooltip,
     DeckThumb,
-    CardImage
+    CardImage,
+    EditDeckModal
 }

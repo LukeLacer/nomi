@@ -2,14 +2,16 @@ import React, { ReactElement, useEffect, useState } from "react";
 
 import "./styles.css";
 import { DeckType } from "../../types";
-import { DeckThumb, Header, Modal } from "../../components";
+import { DeckThumb, EditDeckModal, Header, Modal } from "../../components";
 import { convertStringToDecklist, getCardByCode } from "../../utils";
 import { getLocalData, setLocalData } from "../../storage";
 
 const MyDecks = () => {
   const [decks, setDecks] = useState<Array<DeckType>>([]);
+  const [deckToEdit, setDeckToEdit] = useState<DeckType>();
   const [openCreateDeckModal, setOpenCreateDeckModal] =
     useState<boolean>(false);
+  const [openEditDeckModal, setOpenEditDeckModal] = useState<boolean>(false);
   const [newDeckNameValue, setNewDeckNameValue] = useState("");
   const [newDeckDescriptionValue, setNewDeckDescriptionValue] = useState("");
   const [newDeckLeaderValue, setNewDeckLeaderValue] = useState("");
@@ -44,7 +46,7 @@ const MyDecks = () => {
             leader: newDeckLeaderValue,
             cards: deckList,
             version: 1,
-            oldVersions: []
+            oldVersions: [],
           },
         ]);
       else
@@ -56,7 +58,7 @@ const MyDecks = () => {
             leader: newDeckLeaderValue,
             cards: deckList,
             version: 1,
-            oldVersions: []
+            oldVersions: [],
           },
         ]);
     } else if (deckNameAlreadyExists && !leaderIsValid) {
@@ -74,17 +76,28 @@ const MyDecks = () => {
   };
 
   const navBarSpecificButtons = (): ReactElement[] => {
-    const createDeckButton = <>
-    <button
-      onClick={() => setOpenCreateDeckModal(true)}
-    >
-      Create Deck
-    </button>
-  </>
-    return [
-      createDeckButton
-    ];
+    const createDeckButton = (
+      <>
+        <button onClick={() => setOpenCreateDeckModal(true)}>
+          Create Deck
+        </button>
+      </>
+    );
+    return [createDeckButton];
   };
+
+  const saveEditedDeck = (deckToEdit: DeckType) => {
+    setDecks(
+      decks.map((deck) =>
+        deck.name === deckToEdit.name ? deckToEdit : deck
+      )
+    );
+  };
+
+  const chosenDeckToEdit = (deckName: string) => {
+    setDeckToEdit(decks.filter(deck => deck.name === deckName)[0])
+    setOpenEditDeckModal(true)
+  }
 
   return (
     <>
@@ -100,6 +113,7 @@ const MyDecks = () => {
                   deck={deck}
                   key={deck.name}
                   deleteDeck={deleteDeck}
+                  editDeck={chosenDeckToEdit}
                 />
               );
             })}
@@ -153,6 +167,12 @@ const MyDecks = () => {
           </button>
         </div>
       </Modal>
+      <EditDeckModal
+        deck={deckToEdit}
+        saveEditedDeck={saveEditedDeck}
+        closeModal={() => setOpenEditDeckModal(false)}
+        isOpened={openEditDeckModal}
+      />
     </>
   );
 };

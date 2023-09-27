@@ -8,10 +8,11 @@ import { getPercentageInCollection } from "../../utils";
 type DeckThumbProps = {
     deck: DeckType;
     deleteDeck: Function;
+    editDeck: Function;
 }
 
 const DeckThumb = (props: DeckThumbProps) => {
-    const { deck, deleteDeck } = props
+    const { deck, deleteDeck, editDeck } = props
 
     const [percentageInCollection, setPercentageInCollection] = useState(0)
 
@@ -45,7 +46,7 @@ const DeckThumb = (props: DeckThumbProps) => {
     return (
         <div className="deck-wrapper">
             <div className="deck-buttons-wrapper">
-                <button><img src="./system_icons/wrench-solid.svg" alt="Edit deck icon" /></button>
+                <button onClick={() => editDeck(deck.name)}><img src="./system_icons/wrench-solid.svg" alt="Edit deck icon" /></button>
                 <button onClick={() => deleteDeckHandler()}><img src="./system_icons/trash-solid.svg" alt="Delete deck icon" /></button>
             </div>
             <div className="deck-data-wrapper" onClick={() => deckClickerHandler(deck.name)}>

@@ -4,7 +4,12 @@ import "./styles.css";
 import { DeckType } from "../../types";
 import { useLocation } from "react-router-dom";
 import { CardImage, Header } from "../../components";
-import { sortCardsInDeck, getCardByCode, getHowManyCardsYouHaveInCollection } from "../../utils";
+import {
+  sortCardsInDeck,
+  getCardByCode,
+  getHowManyCardsYouHaveInCollection,
+  changesInDeckVersion,
+} from "../../utils";
 import { getLocalData } from "../../storage";
 
 const OpenDeck = () => {
@@ -28,7 +33,11 @@ const OpenDeck = () => {
       <div>
         <div className="deck-opened-top-info">
           <div>
-          <CardImage code={deck?.leader} className="opened-deck-leader-image" style={{ height: '400px', width: 'auto' }} />
+            <CardImage
+              code={deck?.leader}
+              className="opened-deck-leader-image"
+              style={{ height: "400px", width: "auto" }}
+            />
           </div>
           <div>
             <div className="deck-opened-wrapper">
@@ -49,11 +58,21 @@ const OpenDeck = () => {
                   <th>Quantity in Collection</th>
                 </tr>
               </thead>
+              <tbody>
                 {deck
-                  ? sortCardsInDeck(deck).map((card) => {
-                      const numberOfCardsInCollection = getHowManyCardsYouHaveInCollection(card.code)
+                  ? sortCardsInDeck(deck).map((card, index) => {
+                      const numberOfCardsInCollection =
+                        getHowManyCardsYouHaveInCollection(card.code);
                       return (
-                        <tr style={{ backgroundColor: numberOfCardsInCollection! < card.numberOfCards ? '#ffd0d0' : 'transparent' }}>
+                        <tr
+                          key={index}
+                          style={{
+                            backgroundColor:
+                              numberOfCardsInCollection! < card.numberOfCards
+                                ? "#ffd0d0"
+                                : "transparent",
+                          }}
+                        >
                           <td>{card.numberOfCards}</td>
                           <td>{getCardByCode(card.code).name}</td>
                           <td>{card.code}</td>
@@ -62,15 +81,16 @@ const OpenDeck = () => {
                       );
                     })
                   : null}
+              </tbody>
             </table>
           </div>
         </div>
         <div className="opened-deck-list">
           {deck
-            ? sortCardsInDeck(deck).map((card) => {
+            ? sortCardsInDeck(deck).map((card, index) => {
                 count++;
                 return (
-                  <div className="cards-in-deck-wrapper">
+                  <div className="cards-in-deck-wrapper" key={index}>
                     {[...Array(card.numberOfCards)].map((e, i) => (
                       <CardImage
                         key={card.code + count + i}
@@ -83,6 +103,50 @@ const OpenDeck = () => {
               })
             : null}
         </div>
+        {deck?.version! > 1 ? (
+          <div className="old-versions-comparison">
+            {deck?.oldVersions?.map((oldDeck, index) => {
+              return (
+                <div key={index}>
+                  <div>
+                    Version: {oldDeck.version + " > " + (oldDeck.version + 1)}
+                  </div>
+                  {oldDeck.version + 1 === deck.version
+                    ? changesInDeckVersion(oldDeck, deck)?.map(
+                        (change, index) => {
+                          return (
+                            <div key={index}>
+                              {change.changeType +
+                                ": " +
+                                change.numberOfCards +
+                                " " +
+                                change.cardCode}
+                            </div>
+                          );
+                        }
+                      )
+                    : changesInDeckVersion(
+                        oldDeck,
+                        deck.oldVersions!.filter(
+                          (oldVersion) =>
+                            oldVersion.version === oldDeck.version - 1
+                        )[0]
+                      )?.map((change, index) => {
+                        return (
+                          <div key={index}>
+                            {change.changeType +
+                              ": " +
+                              change.numberOfCards +
+                              " " +
+                              change.cardCode}
+                          </div>
+                        );
+                      })}
+                </div>
+              );
+            })}
+          </div>
+        ) : null}
       </div>
     </>
   );

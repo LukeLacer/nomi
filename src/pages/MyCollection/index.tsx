@@ -32,16 +32,13 @@ const MyCollection = () => {
 
   useEffect(() => {
     const dataFromCollection = getLocalData("my_collection");
-    if (dataFromCollection === undefined || dataFromCollection === '')
+    if (dataFromCollection === undefined || dataFromCollection === "")
       setMycards(defaultcollection);
     else {
       const newerCardList: Array<CardsInMyCollectionType> = JSON.parse(
         dataFromCollection!
       );
-      if (
-        JSON.parse(dataFromCollection!).length <
-        allcards.length
-      )
+      if (JSON.parse(dataFromCollection!).length < allcards.length)
         allcards.forEach((card) => {
           if (
             !newerCardList.some(
@@ -119,8 +116,8 @@ const MyCollection = () => {
       <Header />
       <div className="counters-wrapper">
         Number of cards I want and I don't have
-        {cardsIWantAndIDontHave().map((counter) => (
-          <div>
+        {cardsIWantAndIDontHave().map((counter, index) => (
+          <div key={index}>
             <span>{counter.edition + ": "}</span>
             <span>{counter.quantity}</span>
           </div>
@@ -243,58 +240,60 @@ const MyCollection = () => {
             {showNeed ? <th>Need</th> : null}
           </tr>
         </thead>
-        {myCards?.map((card) => {
-          return (card.want > card.have || showAllCards) &&
-            !(card.card.includes("_") && removeAlters) &&
-            !(card.card[0] === "P" && removePromotionals) ? (
-            <tr>
-              {showImage ? (
-                <td>
-                  <CardImage code={card.card} height="100px" />
-                </td>
-              ) : null}
-              {showCode ? <td>{getCardByCode(card.card).name}</td> : null}
-              {showName ? <td>{card.card}</td> : null}
-              {showHave ? (
-                <td>
-                  <input
-                    type="number"
-                    className="want-have-input"
-                    disabled={blockChanges}
-                    value={card.have}
-                    onChange={(e) =>
-                      onChangeQuantityHandler(e, "have", card.card)
-                    }
-                    name="have"
-                    id="have"
-                  />
-                </td>
-              ) : null}
-              {showWant ? (
-                <td>
-                  <input
-                    type="number"
-                    className="want-have-input"
-                    disabled={blockChanges}
-                    value={card.want}
-                    onChange={(e) =>
-                      onChangeQuantityHandler(e, "want", card.card)
-                    }
-                    name="want"
-                    id="want"
-                  />
-                </td>
-              ) : null}
-              {showNeed ? (
-                <td>
-                  <span className="want-have-input">
-                    {card.have < card.want ? card.want - card.have : 0}
-                  </span>
-                </td>
-              ) : null}
-            </tr>
-          ) : null;
-        })}
+        <tbody>
+          {myCards?.map((card, index) => {
+            return (card.want > card.have || showAllCards) &&
+              !(card.card.includes("_") && removeAlters) &&
+              !(card.card[0] === "P" && removePromotionals) ? (
+              <tr key={index}>
+                {showImage ? (
+                  <td>
+                    <CardImage code={card.card} height="100px" />
+                  </td>
+                ) : null}
+                {showCode ? <td>{getCardByCode(card.card).name}</td> : null}
+                {showName ? <td>{card.card}</td> : null}
+                {showHave ? (
+                  <td>
+                    <input
+                      type="number"
+                      className="want-have-input"
+                      disabled={blockChanges}
+                      value={card.have}
+                      onChange={(e) =>
+                        onChangeQuantityHandler(e, "have", card.card)
+                      }
+                      name="have"
+                      id="have"
+                    />
+                  </td>
+                ) : null}
+                {showWant ? (
+                  <td>
+                    <input
+                      type="number"
+                      className="want-have-input"
+                      disabled={blockChanges}
+                      value={card.want}
+                      onChange={(e) =>
+                        onChangeQuantityHandler(e, "want", card.card)
+                      }
+                      name="want"
+                      id="want"
+                    />
+                  </td>
+                ) : null}
+                {showNeed ? (
+                  <td>
+                    <span className="want-have-input">
+                      {card.have < card.want ? card.want - card.have : 0}
+                    </span>
+                  </td>
+                ) : null}
+              </tr>
+            ) : null;
+          })}
+        </tbody>
       </table>
     </>
   );

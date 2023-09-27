@@ -13,6 +13,10 @@ import {
   getAllEditions
 } from "./get";
 
+import {
+  changesInDeckVersion
+} from "./compare";
+
 const sortCardArrayByCode = (array: CardType[]) => {
   return array.sort((a, b) => (a.code > b.code ? 1 : -1));
 };
@@ -92,5 +96,6 @@ export {
   sortCardinCollectionArrayByCard,
   getAllEditions,
   convertStringToDecklist,
-  convertDecklistToString
+  convertDecklistToString,
+  changesInDeckVersion
 };
